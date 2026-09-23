@@ -1,0 +1,75 @@
+{
+  "id": "color",
+  "primitive": {
+    "neutral": {
+      "0": "#FFFFFF",
+      "50": "#F6F7F9",
+      "100": "#EEF0F3",
+      "200": "#E4E7EC",
+      "300": "#C5CAD3",
+      "500": "#5B6470",
+      "700": "#3E4651",
+      "800": "#1F242C",
+      "900": "#121417"
+    },
+    "blue": {
+      "600": "#1A43B8",
+      "700": "#1D4ED8"
+    },
+    "green": {
+      "800": "#085D3A"
+    },
+    "orange": {
+      "800": "#B54708"
+    },
+    "red": {
+      "800": "#B42318"
+    }
+  },
+  "semantic": {
+    "bg": {
+      "canvas": "{color.primitive.neutral.0}",
+      "surface": "{color.primitive.neutral.50}",
+      "sunken": "{color.primitive.neutral.100}",
+      "inverse": "{color.primitive.neutral.900}"
+    },
+    "text": {
+      "primary": "{color.primitive.neutral.900}",
+      "secondary": "{color.primitive.neutral.700}",
+      "tertiary": "{color.primitive.neutral.500}",
+      "inverse": "{color.primitive.neutral.0}",
+      "link": "{color.primitive.blue.700}",
+      "onAccent": "{color.primitive.neutral.0}"
+    },
+    "border": {
+      "subtle": "{color.primitive.neutral.200}",
+      "default": "{color.primitive.neutral.300}",
+      "strong": "{color.primitive.neutral.500}"
+    },
+    "accent": {
+      "default": "{color.primitive.blue.700}",
+      "hover": "{color.primitive.blue.600}"
+    },
+    "focus": {
+      "ring": "{color.primitive.blue.700}"
+    },
+    "feedback": {
+      "success": "{color.primitive.green.800}",
+      "warning": "{color.primitive.orange.800}",
+      "danger": "{color.primitive.red.800}",
+      "info": "{color.primitive.blue.700}"
+    }
+  },
+  "contrast": [
+    { "fg": "color.semantic.text.primary", "bg": "color.semantic.bg.canvas", "min": 7 },
+    { "fg": "color.semantic.text.secondary", "bg": "color.semantic.bg.canvas", "min": 4.5 },
+    { "fg": "color.semantic.text.tertiary", "bg": "color.semantic.bg.canvas", "min": 4.5 },
+    { "fg": "color.semantic.text.tertiary", "bg": "color.semantic.bg.surface", "min": 4.5 },
+    { "fg": "color.semantic.text.primary", "bg": "color.semantic.bg.surface", "min": 7 },
+    { "fg": "color.semantic.text.onAccent", "bg": "color.semantic.accent.default", "min": 4.5 },
+    { "fg": "color.semantic.text.inverse", "bg": "color.semantic.bg.inverse", "min": 7 },
+    { "fg": "color.semantic.feedback.danger", "bg": "color.semantic.bg.canvas", "min": 4.5 },
+    { "fg": "color.semantic.feedback.success", "bg": "color.semantic.bg.canvas", "min": 4.5 },
+    { "fg": "color.semantic.feedback.warning", "bg": "color.semantic.bg.canvas", "min": 4.5 }
+  ]
+}

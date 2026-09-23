@@ -1,0 +1,17 @@
+{
+  "name": "design_v2",
+  "version": "0.1.0",
+  "status": "foundation",
+  "rootPx": 16,
+  "files": [
+    "space",
+    "size",
+    "type",
+    "layout",
+    "color",
+    "radius",
+    "elevation",
+    "motion",
+    "layer"
+  ]
+}
