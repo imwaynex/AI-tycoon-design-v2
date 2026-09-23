@@ -35,6 +35,22 @@
       ]
     },
     {
+      "name": "Hub/Nav/Glyph",
+      "id": "eKDvm",
+      "size": [
+        64,
+        17
+      ],
+      "figmaNodeIds": [
+        "113:3592",
+        "113:3595",
+        "113:3598",
+        "113:3601",
+        "113:3604"
+      ],
+      "purpose": "Shared editable text for foreground and 24 black outline instances"
+    },
+    {
       "name": "Hub/Nav/Item",
       "id": "GdqgX",
       "size": [
@@ -138,13 +154,22 @@
     }
   ],
   "verification": {
-    "componentCount": 10,
+    "componentCount": 11,
     "importIntoEmptyDocument": "passed",
     "nestedInstanceRender": "passed",
-    "layoutClippingCheck": "passed"
+    "layoutClippingCheck": "passed",
+    "navOutline": {
+      "sourceStrokeWidth": 1.5,
+      "sourceStrokeAlign": "OUTSIDE",
+      "sourceStrokeJoin": "ROUND",
+      "penMethod": "24 radial glyph instances at radius 1.5px, shared foreground glyph component",
+      "visualCheck": "passed",
+      "reopenCheck": "passed",
+      "crossFileImport": "passed"
+    }
   },
   "limitations": [
-    "文字描邊以 Pen 文字描邊設定及黑色陰影近似，跨渲染器非逐像素相同。",
+    "Pen CLI 未保留原生文字描邊，導覽以 24 個文字主元件的黑色實例還原 1.5px 外框；高倍率輪廓取樣與 Figma 非逐像素相同。",
     "世界訊息依原稿拆為兩行可編輯文字；修改內容後須調整分行。",
     "固定 430 px 參考配置；不代表正式產品 RWD 與無障礙驗收。"
   ]
