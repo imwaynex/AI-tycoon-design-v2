@@ -47,6 +47,18 @@
       "scope": "hub",
       "source": "docs/hub/AI-Tycoon-Hub-UI佈局與RWD行為規範.md",
       "sha256": "4e2d91147ed4d708831be9a24a92eac1c78489f253c19edc471860529ea9d9fc"
+    },
+    {
+      "path": "sites/hub-portrait/dist/index.html",
+      "role": "reference",
+      "scope": "hub",
+      "source": "docs/hub/AI-Tycoon-Hub-UI佈局與RWD行為規範.md",
+      "sha256": "c9680db41630096f8ded9930821d719dd85067480b180fb728586d9c1ce034e0"
+    },
+    {
+      "path": "designs/hub-portrait-sites.md",
+      "role": "guide",
+      "scope": "hub"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "elevation",
+  "scale": {
+    "0": "none",
+    "1": "0 1px 2px rgba(18, 20, 23, 0.08)",
+    "2": "0 4px 12px rgba(18, 20, 23, 0.10)",
+    "3": "0 12px 32px rgba(18, 20, 23, 0.16)"
+  },
+  "usage": {
+    "flat": "{elevation.scale.0}",
+    "raised": "{elevation.scale.1}",
+    "dropdown": "{elevation.scale.2}",
+    "dialog": "{elevation.scale.3}"
+  }
+}

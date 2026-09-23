@@ -1,5 +1,10 @@
 # design_v2
 
+## Hub Sites 視覺參考
+
+[Hub 直向網站交付與 RWD 說明](designs/hub-portrait-sites.md) 記錄網站連結、來源、測試與限制。`sites/hub-portrait/` 保存可發布的視覺參考及 token 快照；不代表正式產品元件、品牌主題或 Hub 全項驗收完成。
+
+
 本倉維護響應式設計規範、token 與驗證工具，並收錄 Hub 定稿佈局規範及低保真參考原型。尚未建立產品元件庫、品牌主題或業務資料模型；原型不是正式產品實作。
 
 ## 依任務閱讀
