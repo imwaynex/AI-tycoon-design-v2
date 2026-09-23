@@ -1,0 +1,151 @@
+{
+  "source": "https://www.figma.com/design/G5qDSKMMzOrJNd3HTv8hai/Untitled?node-id=113-3581",
+  "capturedOn": "2026-09-23",
+  "role": "visual-reference",
+  "tool": "pen.dev CLI 0.3.8 interactive",
+  "components": [
+    {
+      "name": "Hub/Icon/City",
+      "id": "k0x0N3",
+      "size": [
+        56,
+        56
+      ],
+      "figmaNodeIds": [
+        "113:3591",
+        "113:3594",
+        "113:3597",
+        "113:3600",
+        "113:3603"
+      ]
+    },
+    {
+      "name": "Hub/Nav/Label",
+      "id": "gbZkt",
+      "size": [
+        67,
+        20
+      ],
+      "figmaNodeIds": [
+        "113:3592",
+        "113:3595",
+        "113:3598",
+        "113:3601",
+        "113:3604"
+      ]
+    },
+    {
+      "name": "Hub/Nav/Item",
+      "id": "GdqgX",
+      "size": [
+        67,
+        64
+      ],
+      "figmaNodeIds": [
+        "113:3590",
+        "113:3593",
+        "113:3596",
+        "113:3599",
+        "113:3602"
+      ]
+    },
+    {
+      "name": "Hub/Bottom/Backdrop",
+      "id": "nTdiT",
+      "size": [
+        430,
+        224
+      ],
+      "figmaNodeIds": [
+        "113:3581"
+      ]
+    },
+    {
+      "name": "Hub/Chat/Guild",
+      "id": "WtOGb",
+      "size": [
+        302,
+        33
+      ],
+      "figmaNodeIds": [
+        "113:3583"
+      ]
+    },
+    {
+      "name": "Hub/Chat/Direct",
+      "id": "g3Ruw",
+      "size": [
+        227,
+        33
+      ],
+      "figmaNodeIds": [
+        "113:3585"
+      ]
+    },
+    {
+      "name": "Hub/Chat/World",
+      "id": "zy4VC",
+      "size": [
+        398,
+        50
+      ],
+      "figmaNodeIds": [
+        "113:3587"
+      ]
+    },
+    {
+      "name": "Hub/Chat/Stack",
+      "id": "lIpLK",
+      "size": [
+        430,
+        128
+      ],
+      "figmaNodeIds": [
+        "113:3582"
+      ]
+    },
+    {
+      "name": "Hub/Nav/Bar",
+      "id": "W42XvN",
+      "size": [
+        430,
+        84
+      ],
+      "figmaNodeIds": [
+        "113:3589"
+      ]
+    },
+    {
+      "name": "Hub/Bottom/Block",
+      "id": "i2XRNO",
+      "size": [
+        430,
+        224
+      ],
+      "figmaNodeIds": [
+        "113:3581"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "city.png",
+      "sha256": "cf451c4a42bbc27eeb7ca4225bd152b929cb10c17a6cc12b623776ebbe671523",
+      "size": [
+        362,
+        362
+      ]
+    }
+  ],
+  "verification": {
+    "componentCount": 10,
+    "importIntoEmptyDocument": "passed",
+    "nestedInstanceRender": "passed",
+    "layoutClippingCheck": "passed"
+  },
+  "limitations": [
+    "文字描邊以 Pen 文字描邊設定及黑色陰影近似，跨渲染器非逐像素相同。",
+    "世界訊息依原稿拆為兩行可編輯文字；修改內容後須調整分行。",
+    "固定 430 px 參考配置；不代表正式產品 RWD 與無障礙驗收。"
+  ]
+}

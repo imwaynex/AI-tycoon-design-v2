@@ -1,0 +1,689 @@
+{
+  "version": "2.18",
+  "children": [
+    {
+      "type": "frame",
+      "id": "J125lB",
+      "x": 0,
+      "y": 0,
+      "name": "AI Tycoon · Hub 底部元件庫",
+      "width": 1180,
+      "height": 1300,
+      "fill": "#22282F",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "Kqf1h",
+          "x": 48,
+          "y": 36,
+          "name": "專案名稱",
+          "fill": "#92ABC5",
+          "content": "AI TYCOON  /  COMPONENT LIBRARY",
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "E1yhsV",
+          "x": 48,
+          "y": 66,
+          "name": "元件庫標題",
+          "fill": "#F5F8FC",
+          "content": "Hub 底部元件庫",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 32,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "x7Hs5K",
+          "x": 48,
+          "y": 120,
+          "name": "來源摘要",
+          "fill": "#ABB8C8",
+          "content": "Figma 113:3581  ·  430 × 224  ·  可編輯元件 / 連動實例",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "k0x0N3",
+          "x": 48,
+          "y": 220,
+          "name": "Hub/Icon/City",
+          "context": "Figma 113:3591,113:3594,113:3597,113:3600,113:3603",
+          "reusable": true,
+          "width": 56,
+          "height": 56,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "R3tPOn",
+              "x": 0,
+              "y": 0,
+              "name": "City artwork",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "hub-bottom-assets/city.png",
+                "mode": "fill"
+              },
+              "width": 56,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gbZkt",
+          "x": 240,
+          "y": 238,
+          "name": "Hub/Nav/Label",
+          "reusable": true,
+          "width": 67,
+          "height": 20,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "eKDvm",
+              "x": 0,
+              "y": 0,
+              "name": "Label",
+              "fill": "#C1DFE1",
+              "textGrowth": "fixed-width",
+              "width": 67,
+              "content": "城市",
+              "lineHeight": 1.4285714,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 14,
+              "fontWeight": "900"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GdqgX",
+          "x": 432,
+          "y": 216,
+          "name": "Hub/Nav/Item",
+          "context": "Figma 113:3590; repeated five times",
+          "reusable": true,
+          "width": 67,
+          "height": 64,
+          "layout": "none",
+          "children": [
+            {
+              "id": "ZgOf7",
+              "type": "ref",
+              "ref": "k0x0N3",
+              "name": "Icon",
+              "x": 5.5,
+              "y": 0
+            },
+            {
+              "id": "Ig8UG",
+              "type": "ref",
+              "ref": "gbZkt",
+              "name": "Label",
+              "x": 0,
+              "y": 44
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nTdiT",
+          "x": 650,
+          "y": 200,
+          "name": "Hub/Bottom/Backdrop",
+          "reusable": true,
+          "width": 430,
+          "height": 224,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#000C2300",
+                "position": 0
+              },
+              {
+                "color": "#000C23A8",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "none"
+        },
+        {
+          "type": "frame",
+          "id": "WtOGb",
+          "x": 48,
+          "y": 500,
+          "name": "Hub/Chat/Guild",
+          "context": "Figma 113:3583",
+          "reusable": true,
+          "width": 302,
+          "height": 33,
+          "fill": "#00000033",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "background_blur",
+            "radius": 4
+          },
+          "layout": "vertical",
+          "padding": [
+            8,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "x6syZA",
+              "name": "First line",
+              "height": 17,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M0KAX",
+                  "name": "Channel and sender",
+                  "fill": "#8DA0FF",
+                  "content": "[商會] FOMO價值投資者:",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                },
+                {
+                  "type": "text",
+                  "id": "m1gwq",
+                  "name": "Message",
+                  "fill": "#FFFFFF",
+                  "content": " 哪有每次買都被狙擊的",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g3Ruw",
+          "x": 414,
+          "y": 500,
+          "name": "Hub/Chat/Direct",
+          "context": "Figma 113:3585",
+          "reusable": true,
+          "width": 227,
+          "height": 33,
+          "fill": "#00000033",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "background_blur",
+            "radius": 4
+          },
+          "layout": "vertical",
+          "padding": [
+            8,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "d0HKV",
+              "name": "First line",
+              "height": 17,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d70sMi",
+                  "name": "Channel and sender",
+                  "fill": "#F48DFF",
+                  "content": "[私訊] FOMO價值投資者:",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                },
+                {
+                  "type": "text",
+                  "id": "aRdPG",
+                  "name": "Message",
+                  "fill": "#FFFFFF",
+                  "content": " 我會笑死",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zy4VC",
+          "x": 704,
+          "y": 500,
+          "name": "Hub/Chat/World",
+          "context": "Figma 113:3587",
+          "reusable": true,
+          "width": 398,
+          "height": 50,
+          "fill": "#00000033",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "background_blur",
+            "radius": 4
+          },
+          "layout": "vertical",
+          "padding": [
+            8,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "xv5Gk",
+              "name": "First line",
+              "height": 17,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "njYl2",
+                  "name": "Channel and sender",
+                  "fill": "#8DF5FF",
+                  "content": "[世界] FOMO價值投資者:",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                },
+                {
+                  "type": "text",
+                  "id": "sPPAA",
+                  "name": "Message",
+                  "fill": "#FFFFFF",
+                  "content": " 我會笑死，哪有每次買都被狙擊的，哈",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "SXN22",
+              "name": "Message continuation",
+              "fill": "#FFFFFF",
+              "content": "哈哈哈哈",
+              "lineHeight": 1.4166666666666667,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 0.48
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lIpLK",
+          "x": 48,
+          "y": 680,
+          "name": "Hub/Chat/Stack",
+          "context": "Figma 113:3582",
+          "reusable": true,
+          "width": 430,
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "id": "IFPvR",
+              "type": "ref",
+              "ref": "WtOGb",
+              "name": "Guild message"
+            },
+            {
+              "id": "bxGVb",
+              "type": "ref",
+              "ref": "g3Ruw",
+              "name": "Direct message"
+            },
+            {
+              "id": "RsTvA",
+              "type": "ref",
+              "ref": "zy4VC",
+              "name": "World message",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "W42XvN",
+          "x": 650,
+          "y": 680,
+          "name": "Hub/Nav/Bar",
+          "context": "Figma 113:3589",
+          "reusable": true,
+          "width": 430,
+          "gap": 8,
+          "padding": [
+            0,
+            16,
+            20,
+            16
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "p521oA",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Destination 1",
+              "context": "Figma 113:3590"
+            },
+            {
+              "id": "f8A04",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Destination 2",
+              "context": "Figma 113:3593"
+            },
+            {
+              "id": "KfWLd",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Destination 3",
+              "context": "Figma 113:3596"
+            },
+            {
+              "id": "N0uoQ",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Destination 4",
+              "context": "Figma 113:3599"
+            },
+            {
+              "id": "i0uAR",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Destination 5",
+              "context": "Figma 113:3602"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "i2XRNO",
+          "x": 48,
+          "y": 952,
+          "name": "Hub/Bottom/Block",
+          "context": "Figma 113:3581; reference appearance, not product acceptance",
+          "reusable": true,
+          "width": 430,
+          "height": 224,
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "id": "w4hLhp",
+              "type": "ref",
+              "ref": "nTdiT",
+              "name": "Backdrop",
+              "x": 0,
+              "y": 0,
+              "layoutPosition": "absolute",
+              "width": 430,
+              "height": 224
+            },
+            {
+              "id": "XB5jL",
+              "type": "ref",
+              "ref": "lIpLK",
+              "name": "Chat preview",
+              "width": "fill_container"
+            },
+            {
+              "id": "McHTF",
+              "type": "ref",
+              "ref": "W42XvN",
+              "name": "Primary navigation",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A6CIQc",
+          "x": 650,
+          "y": 952,
+          "name": "Instance preview",
+          "clip": true,
+          "width": 430,
+          "height": 224,
+          "fill": "#202020",
+          "layout": "none",
+          "children": [
+            {
+              "id": "R8dHI",
+              "type": "ref",
+              "ref": "i2XRNO",
+              "name": "Bottom block instance",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "ITn4b",
+          "x": 48,
+          "y": 176,
+          "name": "01  基礎物件",
+          "fill": "#F5F8FC",
+          "content": "01  基礎物件",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "pqbVF",
+          "x": 48,
+          "y": 300,
+          "name": "City icon / 56 × 56",
+          "fill": "#ABB8C8",
+          "content": "City icon / 56 × 56",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "TmPOl",
+          "x": 240,
+          "y": 300,
+          "name": "Label / 67 × 20",
+          "fill": "#ABB8C8",
+          "content": "Label / 67 × 20",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "g5B0Dv",
+          "x": 432,
+          "y": 300,
+          "name": "Nav item / 67 × 64",
+          "fill": "#ABB8C8",
+          "content": "Nav item / 67 × 64",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "B6Opg",
+          "x": 650,
+          "y": 436,
+          "name": "Backdrop / 430 × 224",
+          "fill": "#ABB8C8",
+          "content": "Backdrop / 430 × 224",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "SkDe4",
+          "x": 48,
+          "y": 450,
+          "name": "02  聊天訊息",
+          "fill": "#F5F8FC",
+          "content": "02  聊天訊息",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "f1lrt",
+          "x": 48,
+          "y": 574,
+          "name": "Guild / 商會",
+          "fill": "#ABB8C8",
+          "content": "Guild / 商會",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "lOL6G",
+          "x": 414,
+          "y": 574,
+          "name": "Direct / 私訊",
+          "fill": "#ABB8C8",
+          "content": "Direct / 私訊",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "G3pAtO",
+          "x": 704,
+          "y": 574,
+          "name": "World / 世界 · 原稿雙行",
+          "fill": "#ABB8C8",
+          "content": "World / 世界 · 原稿雙行",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "O3g3Ha",
+          "x": 48,
+          "y": 630,
+          "name": "03  區域組合",
+          "fill": "#F5F8FC",
+          "content": "03  區域組合",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "r3N1Dq",
+          "x": 48,
+          "y": 835,
+          "name": "Chat stack / 430 × 128",
+          "fill": "#ABB8C8",
+          "content": "Chat stack / 430 × 128",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "hCEPl",
+          "x": 650,
+          "y": 790,
+          "name": "Nav bar / 430 × 84 · 5 個連動實例",
+          "fill": "#ABB8C8",
+          "content": "Nav bar / 430 × 84 · 5 個連動實例",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "LOa65",
+          "x": 48,
+          "y": 902,
+          "name": "04  完整底部區塊 · 主元件",
+          "fill": "#F5F8FC",
+          "content": "04  完整底部區塊 · 主元件",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "Tiop2",
+          "x": 650,
+          "y": 902,
+          "name": "05  組合實例 · 1:1 預覽",
+          "fill": "#F5F8FC",
+          "content": "05  組合實例 · 1:1 預覽",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "sQcX4",
+          "x": 48,
+          "y": 1216,
+          "name": "保留原稿視覺：世界訊息雙行、五項城市佔位。正式目的地與單行摘要規則請見 Hub 規範。",
+          "fill": "#ABB8C8",
+          "content": "保留原稿視覺：世界訊息雙行、五項城市佔位。正式目的地與單行摘要規則請見 Hub 規範。",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "500"
+        }
+      ]
+    }
+  ],
+  "fileToken": "2ec5a894-876b-4c9a-b558-22932d4e7d30"
+}
