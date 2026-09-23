@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "documents": [
+    {
+      "path": "README.md",
+      "role": "entry",
+      "scope": "repository"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "agent-contract",
+      "scope": "repository"
+    },
+    {
+      "path": "CLAUDE.md",
+      "role": "entry",
+      "scope": "claude"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "role": "governance",
+      "scope": "repository"
+    },
+    {
+      "path": "SPEC.md",
+      "role": "normative",
+      "scope": "foundation"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "role": "history",
+      "scope": "repository"
+    },
+    {
+      "path": "docs/hub/README.md",
+      "role": "guide",
+      "scope": "hub"
+    },
+    {
+      "path": "docs/hub/AI-Tycoon-Hub-UI佈局與RWD行為規範.md",
+      "role": "normative",
+      "scope": "hub"
+    },
+    {
+      "path": "docs/hub/AI-Tycoon-Hub.html",
+      "role": "reference",
+      "scope": "hub",
+      "source": "docs/hub/AI-Tycoon-Hub-UI佈局與RWD行為規範.md",
+      "sha256": "4e2d91147ed4d708831be9a24a92eac1c78489f253c19edc471860529ea9d9fc"
+    }
+  ]
+}

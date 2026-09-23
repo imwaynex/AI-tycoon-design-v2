@@ -11,14 +11,15 @@
   7. 數值格式：宣告 unit 的檔案，同單位長度寫成數字；全域設定不重複。
   8. 版本：status 與主版本一致，CHANGELOG 最新版本等於 index.json。
   9. 棄用登記：token 存在、引用 replacedBy，且尚未到達 removeIn。
- 10. 用詞：Markdown 使用台灣用語；SPEC.md 不使用無法驗證的詞。
+ 10. 文件：角色、範圍、來源雜湊、相對連結與遞迴用詞。
 
 有錯誤時結束碼為 1。
 """
-import json
 import re
 import sys
 from pathlib import Path
+
+from check_docs import load_json, validate_documents
 
 ROOT = Path(__file__).resolve().parent.parent
 TOKENS = ROOT / "tokens"
@@ -48,14 +49,14 @@ def err(msg):
 
 
 def load():
-    index = json.loads((TOKENS / "index.json").read_text())
+    index = load_json(TOKENS / "index.json")
     files = {}
     for name in index["files"]:
         path = TOKENS / f"{name}.json"
         if not path.exists():
             err(f"index.json 列出 {name}，但 {path.name} 不存在")
             continue
-        data = json.loads(path.read_text())
+        data = load_json(path)
         if data.get("id") != name:
             err(f"{path.name} 的 id 是 {data.get('id')!r}，應為 {name!r}")
         files[name] = data
@@ -118,7 +119,7 @@ def contrast(a, b):
 
 def spec_terms():
     terms = set()
-    for term in re.findall(r"`([^`\n]+)`", SPEC.read_text()):
+    for term in re.findall(r"`([^`\n]+)`", SPEC.read_text(encoding="utf-8")):
         if re.fullmatch(r"[A-Za-z][\w]*(\.[\w]+)*", term):
             terms.add(tuple(term.split(".")))
     return terms
@@ -171,7 +172,7 @@ def check_version(index):
     if not CHANGELOG.exists():
         err("缺少 CHANGELOG.md")
         return version
-    released = re.findall(r"^## \[(\d+\.\d+\.\d+)\]", CHANGELOG.read_text(), re.M)
+    released = re.findall(r"^## \[(\d+\.\d+\.\d+)\]", CHANGELOG.read_text(encoding="utf-8"), re.M)
     if not released:
         err("CHANGELOG.md 沒有任何 ## [主.次.修] 版本段落")
     elif parse_version(released[0]) != version:
@@ -199,25 +200,14 @@ def check_deprecated(index, files, version):
             err(f"{dotted} 預定在 {info['removeIn']} 刪除，目前已是 {index['version']}")
 
 
-def check_wording():
-    for md in sorted(ROOT.glob("*.md")):
-        for lineno, line in enumerate(md.read_text().splitlines(), 1):
-            text = re.sub(r"`[^`]*`", "", line)  # 反引號內是引用，不檢查
-            for bad, good in BANNED_TERMS.items():
-                if bad in text:
-                    err(f"{md.name}:{lineno}：「{bad}」改用「{good}」")
-            if md == SPEC:
-                for vague in VAGUE_TERMS:
-                    if vague in text:
-                        err(f"{md.name}:{lineno}：規範句不使用「{vague}」，改寫成可驗證的要求")
-
-
 def main():
+    errors.clear()
+    doc_errors, doc_counts = validate_documents(ROOT, BANNED_TERMS, VAGUE_TERMS)
+    errors.extend(doc_errors)
     index, files = load()
     check_format(index, files)
     version = check_version(index)
     check_deprecated(index, files, version)
-    check_wording()
     deprecated = set(index.get("deprecated") or {})
     all_leaves = [(p, v) for name, data in files.items() for p, v in leaves(data, [name])]
 
@@ -290,9 +280,15 @@ def main():
             print("  - " + e)
         return 1
     print(f"✓ tokens {index.get('version')}：{len(all_leaves)} 個 token，"
-          f"{len(color.get('contrast', []))} 組對比，文件用詞與版本紀錄全部通過")
+          f"{len(color.get('contrast', []))} 組對比，版本與引用檢查通過")
+    print(f"✓ 文件：{doc_counts['documents']} 份，{doc_counts['local_links']} 個相對連結，角色、來源與用詞檢查通過")
+    print("  不涵蓋語意衝突、外部網址可達性或實機 UX 驗收。")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        print(f"✗ 無法完成檢查：{exc}", file=sys.stderr)
+        sys.exit(1)

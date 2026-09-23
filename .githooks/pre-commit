@@ -1,3 +1,6 @@
 #!/bin/sh
-# 提交前執行規範與 token 檢查。啟用方式見 GOVERNANCE.md 第 9 節。
-exec python3 "$(git rev-parse --show-toplevel)/scripts/check.py"
+# 本地與 CI 使用相同檢查，不另維護規則。
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+python3 scripts/check.py
+python3 -m unittest discover -s scripts -p 'test_*.py'

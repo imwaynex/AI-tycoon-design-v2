@@ -1,34 +1,37 @@
 # design_v2
 
-這是一套響應式介面的底層設計系統，並收錄第一份頁面級 Hub 佈局規範與低保真參考原型。本倉仍沒有產品元件實作與品牌主題；Hub 原型只作為規範參照，不代表已完成產品畫面。
+本倉維護響應式設計規範、token 與驗證工具，並收錄 Hub 定稿佈局規範及低保真參考原型。尚未建立產品元件庫、品牌主題或業務資料模型；原型不是正式產品實作。
 
-規範由兩部分一起成立，另有工具與流程文件維持它們一致：
+## 依任務閱讀
 
-| 檔案 | 職責 |
+| 任務 | 入口與後續來源 |
 |---|---|
-| [SPEC.md](SPEC.md) | 共用行為與約束。定義介面如何隨寬度、高度、容器與輸入方式變化。 |
-| [docs/hub/](docs/hub/) | Hub 頁面級規範與互動參考原型；正式要求以目錄內的 RWD 行為規範為準。 |
-| [tokens/](tokens/) | 數值。間距、字級、斷點、色彩、尺寸、圓角、海拔、動效與層級。 |
-| [scripts/check.py](scripts/check.py) | 驗證。檢查引用、對比、色階方向、疊層順序、數值格式、版本紀錄、棄用登記、用詞，以及每個 token 是否都有規則。 |
-| [GOVERNANCE.md](GOVERNANCE.md) | 管理規範。變更分類、版本、棄用、提交、發布與寫作。 |
-| [CHANGELOG.md](CHANGELOG.md) | 每個版本的變更與對消費者的影響。 |
-| [AGENTS.md](AGENTS.md) | Agent 工作契約：任務範圍、資料來源、工作步驟、同步修改、決策、驗證與交付。 |
-| [CLAUDE.md](CLAUDE.md) | Claude Code 入口，匯入 `AGENTS.md` 共用完整工作契約。 |
+| Agent 修改倉庫 | [AGENTS.md](AGENTS.md) → [GOVERNANCE.md](GOVERNANCE.md)。 |
+| 共用 RWD／元件行為 | [SPEC.md](SPEC.md) → [tokens/index.json](tokens/index.json) → 受影響的 token 檔。 |
+| Hub 佈局與驗收 | [Hub 文件入口](docs/hub/README.md) → 正式規範；只有需要互動參照時才讀 HTML。 |
+| 文件角色與來源定位 | [docs/index.json](docs/index.json)；只登記路徑、角色與範圍，不複製設計條款或版本。 |
+| 版本與變更影響 | [CHANGELOG.md](CHANGELOG.md)；發布流程見管理規範。 |
+| Claude Code | [CLAUDE.md](CLAUDE.md) 匯入同一份 Agent 工作契約。 |
 
-`tokens/index.json` 的 `version` 是這套底層的版本。規則與數值衝突時，先改正衝突，再使用。畫面與元件實作不得另寫一套斷點或色值。
+來源分工與衝突處理集中在 [管理規範第 1 節](GOVERNANCE.md#1-文件職責)。共用規則與 token 共同成立；頁面規範補充自己的行為，不授權任意覆寫全域 token。HTML 與歷史紀錄不作為現行設計規則。
 
-閱讀順序：本頁，然後 `SPEC.md`，需要數值時再查對應的 token 檔；處理 Hub 時再讀 `docs/hub/README.md` 與 Hub 正式規範。要修改本倉之前，先讀 `GOVERNANCE.md`。
+## 驗證
 
-Agent 開始工作前先讀 `AGENTS.md`；共同規則只維護這一份，Claude Code 透過 `CLAUDE.md` 匯入。
-
-修改規範或 token 後執行：
+在倉庫根目錄執行，僅需 Python 3 標準函式庫：
 
 ```sh
 python3 scripts/check.py
+python3 -m unittest discover -s scripts -p 'test_*.py'
 ```
 
-只需要 Python 3 標準函式庫，有任何問題時結束碼為 1。複製倉庫後執行一次下列指令，提交前就會自動檢查：
+[check.py](scripts/check.py) 保留 token 引用、對比、色階、層級、格式、版本與棄用檢查，並呼叫 [check_docs.py](scripts/check_docs.py) 驗證文件登記、角色、相對連結、參考原型完整性與遞迴用詞。[回歸測試](scripts/test_check_docs.py) 驗證錯誤確實會被攔截。
+
+檢查通過不代表文件語意完全一致，也不代表 RWD、鍵盤、對比實際呈現或實機 UX 已驗收；人工審查仍依管理規範與各頁驗收條件執行。外部網址可達性不在離線檢查範圍。
+
+啟用本地提交檢查：
 
 ```sh
 git config core.hooksPath .githooks
 ```
+
+[CI](.github/workflows/validate.yml) 執行相同兩個指令；是否設定為合併必要條件由維護者管理。系統版本只讀取 `tokens/index.json`，不要從 Hub 文件或原型版本推算。
