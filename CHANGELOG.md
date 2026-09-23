@@ -6,11 +6,22 @@
 
 ### 新增
 
+- `docs/index.json`：登記文件角色、範圍與參考來源；不複製設計條款或版本。
+- `scripts/check_docs.py`、`scripts/test_check_docs.py`：補上文件角色、來源完整性、相對連結與遞迴用詞檢查及回歸測試；由既有統一檢查入口執行。
+- `.github/workflows/validate.yml`：讓 PR 與 `main` 使用和本地相同的檢查及測試；不代表已設定分支保護。
+
 - `docs/hub/`：整合 Hub UI 佈局與 RWD 行為定稿規範，以及低保真互動參考原型；正式驗收以頁面規範為準，原型中的城市與建築配置維持非規範性示意。
 - `SPEC.md`：加入頁面級命名配置條件的範圍規則，明確讓 Hub 的方向與 36rem 門檻只在 Hub 生效，不改寫全域 `layout.breakpoint`。
 - `README.md`、`GOVERNANCE.md`、`AGENTS.md`：加入頁面級文件的閱讀、維護與審查責任。
 - `AGENTS.md`：定義 Agent 的任務範圍、資料來源、工作步驟、同步修改、決策、完成標準與交付規則。
 - `CLAUDE.md`：匯入 `AGENTS.md`，讓 Claude Code 共用完整工作契約。同步更新 README 與管理規範的文件索引；既有設計系統消費者不需要修改。
+
+### 修正
+
+- `README.md`、`AGENTS.md` 與 `GOVERNANCE.md`：集中來源分工、精簡 Agent 閱讀路徑，補上固定 commit、並行修改保護與實際驗證結果的交付要求。
+- `SPEC.md` 與 Hub 導讀：釐清頁面配置和全域寬度帶、城市底圖和一般正文、原型和正式實作之間的界線；列出仍需維護者決策的 token 映射，不改動定稿內容與既有 token。
+- `CLAUDE.md` 移除容易過期的節數敘述；本地 hook 同步執行回歸測試，忽略 Python 暫存檔。
+- 文件檢查通過不代表語意衝突或實機 UX 全部通過；保留原始 Hub 規範及 HTML，不以原型示意補完城市設計。既有 token 消費者無須遷移，發布版本維持不變。
 
 ## [0.2.0] - 2026-09-23
 
