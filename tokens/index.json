@@ -1,6 +1,6 @@
 {
   "name": "design_v2",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "status": "foundation",
   "rootPx": 16,
   "files": [
@@ -13,5 +13,6 @@
     "elevation",
     "motion",
     "layer"
-  ]
+  ],
+  "deprecated": {}
 }

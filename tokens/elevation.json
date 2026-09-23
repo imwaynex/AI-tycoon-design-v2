@@ -9,7 +9,7 @@
   "usage": {
     "flat": "{elevation.scale.0}",
     "raised": "{elevation.scale.1}",
-    "overlay": "{elevation.scale.2}",
+    "dropdown": "{elevation.scale.2}",
     "dialog": "{elevation.scale.3}"
   }
 }

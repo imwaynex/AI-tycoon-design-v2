@@ -1,15 +1,16 @@
 {
   "id": "layout",
-  "minWidth": "320px",
+  "unit": "px",
+  "minWidth": 320,
   "breakpoint": {
-    "sm": "600px",
-    "md": "1024px",
-    "lg": "1440px"
+    "sm": 600,
+    "md": 1024,
+    "lg": 1440
   },
-  "shortHeight": "500px",
+  "shortHeight": 500,
   "container": {
-    "sm": "360px",
-    "md": "640px"
+    "sm": 360,
+    "md": 640
   },
   "columns": {
     "base": 4,
@@ -29,10 +30,10 @@
     "md": "{space.scale.6}",
     "lg": "{space.scale.6}"
   },
-  "contentMax": "1120px",
-  "wideMax": "1280px",
+  "contentMax": 1120,
+  "wideMax": 1280,
   "measure": "68ch",
-  "dialogMax": "480px",
+  "dialogMax": 480,
   "regionGap": {
     "base": "{space.scale.6}",
     "sm": "{space.scale.8}",

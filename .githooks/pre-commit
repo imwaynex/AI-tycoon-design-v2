@@ -1,0 +1,3 @@
+#!/bin/sh
+# 提交前執行規範與 token 檢查。啟用方式見 GOVERNANCE.md 第 9 節。
+exec python3 "$(git rev-parse --show-toplevel)/scripts/check.py"

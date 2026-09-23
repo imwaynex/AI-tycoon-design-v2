@@ -4,8 +4,8 @@
     "base": 0,
     "sticky": 100,
     "dropdown": 200,
-    "overlay": 300,
-    "modal": 400,
-    "toast": 500
+    "toast": 300,
+    "scrim": 400,
+    "modal": 500
   }
 }

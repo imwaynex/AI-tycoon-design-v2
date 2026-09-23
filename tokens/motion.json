@@ -13,6 +13,6 @@
   },
   "reduced": {
     "durationMs": 0,
-    "allowOpacity": true
+    "opacityMs": "{motion.durationMs.fast}"
   }
 }

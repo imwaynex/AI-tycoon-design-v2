@@ -1,6 +1,5 @@
 {
   "id": "type",
-  "rootPx": 16,
   "family": {
     "text": "system-ui, sans-serif",
     "mono": "ui-monospace, monospace"
