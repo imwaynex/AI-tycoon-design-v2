@@ -13,7 +13,8 @@
 | 來源 | 用途 |
 |---|---|
 | [README.md](README.md) | 專案入口、閱讀順序與驗證方式。 |
-| [SPEC.md](SPEC.md) | 介面行為、約束與 token 用途。 |
+| [SPEC.md](SPEC.md) | 共用介面行為、約束與 token 用途。 |
+| [docs/](docs/) | 頁面級規範與參考資料；處理特定頁面時讀取對應目錄。 |
 | [tokens/](tokens/) | 數值與引用；`tokens/index.json` 記錄版本、狀態、全域設定與棄用登記。 |
 | [GOVERNANCE.md](GOVERNANCE.md) | 變更分類、版本、棄用、提交、發布與寫作規則。 |
 | [CHANGELOG.md](CHANGELOG.md) | 已發布與未發布的變更及消費者影響。 |
@@ -25,7 +26,7 @@
 
 ## 3. 開始工作的步驟
 
-1. 先讀 `README.md`、`GOVERNANCE.md`，再讀任務涉及的 `SPEC.md` 條款、`tokens/index.json` 與相關 token 檔案。
+1. 先讀 `README.md`、`GOVERNANCE.md`，再讀任務涉及的 `SPEC.md` 條款、`tokens/index.json` 與相關 token 檔案；任務涉及具體頁面時，同時讀 `docs/` 下對應頁面的正式規範與參考資料說明。
 2. 使用 `git status --short` 與相關檔案的差異確認工作區狀態。保留既有修改，不回復、清除或覆寫使用者尚未提交的工作。
 3. 搜尋被修改名稱的定義與引用，確認規範、token、驗證工具及變更紀錄的影響範圍。
 4. 依 `GOVERNANCE.md` 判斷變更類別與分支流程。工作區已有進行中的修改時，先辨識所屬任務，不為整理分支而搬移或丟棄既有工作。
