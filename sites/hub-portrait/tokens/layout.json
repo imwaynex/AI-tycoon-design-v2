@@ -1,0 +1,43 @@
+{
+  "id": "layout",
+  "unit": "px",
+  "minWidth": 320,
+  "breakpoint": {
+    "sm": 600,
+    "md": 1024,
+    "lg": 1440
+  },
+  "shortHeight": 500,
+  "container": {
+    "sm": 360,
+    "md": 640
+  },
+  "columns": {
+    "base": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 12
+  },
+  "margin": {
+    "base": "{space.scale.4}",
+    "sm": "{space.scale.6}",
+    "md": "{space.scale.8}",
+    "lg": "{space.scale.10}"
+  },
+  "gutter": {
+    "base": "{space.scale.3}",
+    "sm": "{space.scale.4}",
+    "md": "{space.scale.6}",
+    "lg": "{space.scale.6}"
+  },
+  "contentMax": 1120,
+  "wideMax": 1280,
+  "measure": "68ch",
+  "dialogMax": 480,
+  "regionGap": {
+    "base": "{space.scale.6}",
+    "sm": "{space.scale.8}",
+    "md": "{space.scale.8}",
+    "lg": "{space.scale.10}"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "size",
+  "unit": "px",
+  "target": {
+    "fine": 32,
+    "coarse": 44,
+    "comfortable": 48
+  },
+  "targetGap": "{space.scale.2}",
+  "icon": {
+    "sm": 16,
+    "md": 20,
+    "lg": 24
+  },
+  "control": {
+    "compact": 36,
+    "regular": 44,
+    "comfortable": 48
+  },
+  "focus": {
+    "width": 2,
+    "offset": 2
+  },
+  "border": {
+    "hairline": 1,
+    "strong": 2
+  }
+}
