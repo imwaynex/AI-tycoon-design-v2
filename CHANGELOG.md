@@ -6,6 +6,9 @@
 
 ### 新增
 
+- `docs/hub/`：整合 Hub UI 佈局與 RWD 行為定稿規範，以及低保真互動參考原型；正式驗收以頁面規範為準，原型中的城市與建築配置維持非規範性示意。
+- `SPEC.md`：加入頁面級命名配置條件的範圍規則，明確讓 Hub 的方向與 36rem 門檻只在 Hub 生效，不改寫全域 `layout.breakpoint`。
+- `README.md`、`GOVERNANCE.md`、`AGENTS.md`：加入頁面級文件的閱讀、維護與審查責任。
 - `AGENTS.md`：定義 Agent 的任務範圍、資料來源、工作步驟、同步修改、決策、完成標準與交付規則。
 - `CLAUDE.md`：匯入 `AGENTS.md`，讓 Claude Code 共用完整工作契約。同步更新 README 與管理規範的文件索引；既有設計系統消費者不需要修改。
 
