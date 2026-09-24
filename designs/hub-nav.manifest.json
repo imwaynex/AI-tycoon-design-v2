@@ -1,0 +1,180 @@
+{
+  "library": "hub-nav.lib.pen",
+  "role": "visual-reference",
+  "source": "https://www.figma.com/design/G5qDSKMMzOrJNd3HTv8hai/Untitled?node-id=113-3581",
+  "splitOn": "2026-09-25",
+  "entryComponentId": "W42XvN",
+  "components": [
+    {
+      "name": "Hub/Icon/City",
+      "id": "k0x0N3",
+      "size": [
+        56,
+        56
+      ],
+      "figmaNodeIds": [
+        "113:3591",
+        "113:3594",
+        "113:3597",
+        "113:3600",
+        "113:3603"
+      ]
+    },
+    {
+      "name": "Hub/Nav/Label",
+      "id": "gbZkt",
+      "size": [
+        67,
+        20
+      ],
+      "figmaNodeIds": [
+        "113:3592",
+        "113:3595",
+        "113:3598",
+        "113:3601",
+        "113:3604"
+      ]
+    },
+    {
+      "name": "Hub/Nav/Glyph",
+      "id": "eKDvm",
+      "size": [
+        64,
+        17
+      ],
+      "figmaNodeIds": [
+        "113:3592",
+        "113:3595",
+        "113:3598",
+        "113:3601",
+        "113:3604"
+      ],
+      "purpose": "Shared editable text for foreground and 24 black outline instances"
+    },
+    {
+      "name": "Hub/Nav/Item",
+      "id": "GdqgX",
+      "size": [
+        67,
+        64
+      ],
+      "figmaNodeIds": [
+        "113:3590",
+        "113:3593",
+        "113:3596",
+        "113:3599",
+        "113:3602"
+      ]
+    },
+    {
+      "name": "Hub/Nav/Bar",
+      "id": "W42XvN",
+      "size": [
+        430,
+        84
+      ],
+      "figmaNodeIds": [
+        "113:3589"
+      ]
+    }
+  ],
+  "libraryDependencies": [],
+  "verification": {
+    "componentCount": 5,
+    "danglingReferences": [],
+    "importIntoComposition": "passed",
+    "visualPreview": "passed",
+    "layoutClippingCheck": "passed"
+  },
+  "navigation": {
+    "source": "User instruction 2026-09-24 Asia/Tokyo",
+    "items": [
+      {
+        "label": "城市",
+        "asset": "city",
+        "instanceId": "p521oA",
+        "path": "hub-nav-assets/city.png"
+      },
+      {
+        "label": "事件",
+        "asset": "event",
+        "instanceId": "f8A04",
+        "path": "hub-nav-assets/event.png"
+      },
+      {
+        "label": "商會",
+        "asset": "shield",
+        "instanceId": "KfWLd",
+        "path": "hub-nav-assets/shield.png"
+      },
+      {
+        "label": "排行",
+        "asset": "ranking",
+        "instanceId": "N0uoQ",
+        "path": "hub-nav-assets/ranking.png"
+      },
+      {
+        "label": "資產",
+        "asset": "wallet-color",
+        "instanceId": "i0uAR",
+        "path": "hub-nav-assets/wallet-color.png"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "path": "hub-nav-assets/city.png",
+      "sourcePath": "assets/icons/popboard-v1/png/city.png",
+      "sha256": "f5b6b37a67bd2a74a93dc6975b31f53e326bc94490867f3792d70a877617c4b4",
+      "size": [
+        362,
+        362
+      ]
+    },
+    {
+      "path": "hub-nav-assets/event.png",
+      "sourcePath": "assets/icons/popboard-v1/png/event.png",
+      "sha256": "35032117fdb404ccc2791a7cb60e324e49d683073e9a270a389e4bfea592e46b",
+      "size": [
+        362,
+        362
+      ]
+    },
+    {
+      "path": "hub-nav-assets/shield.png",
+      "sourcePath": "assets/icons/popboard-v1/png/shield.png",
+      "sha256": "8ee6bacf19c499c8ae6153ad47af134f298893aa357b1095de1d57f266ec1407",
+      "size": [
+        314,
+        314
+      ]
+    },
+    {
+      "path": "hub-nav-assets/ranking.png",
+      "sourcePath": "assets/icons/popboard-v1/png/ranking.png",
+      "sha256": "141423495339bf827d6ade94c0d43c2d812cb7383074ff722764731a76770385",
+      "size": [
+        362,
+        362
+      ]
+    },
+    {
+      "path": "hub-nav-assets/wallet-color.png",
+      "sourcePath": "assets/icons/popboard-v1/png/wallet-color.png",
+      "sha256": "00a8dbccde0602b9f23be11111147f2db38fb945653dac8d35d0957e691f9ede",
+      "size": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "outline": {
+    "sourceStrokeWidth": 1.5,
+    "sourceStrokeAlign": "OUTSIDE",
+    "sourceStrokeJoin": "ROUND",
+    "penMethod": "24 radial glyph instances at radius 1.5px, shared foreground glyph component",
+    "visualCheck": "passed",
+    "reopenCheck": "passed",
+    "crossFileImport": "passed"
+  }
+}

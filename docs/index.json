@@ -52,6 +52,16 @@
       "path": "designs/hub-bottom-components.md",
       "role": "guide",
       "scope": "hub"
+    },
+    {
+      "path": "designs/hub-nav.md",
+      "role": "guide",
+      "scope": "hub"
+    },
+    {
+      "path": "designs/hub-chat.md",
+      "role": "guide",
+      "scope": "hub"
     }
   ]
 }

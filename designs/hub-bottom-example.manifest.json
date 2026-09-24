@@ -1,0 +1,28 @@
+{
+  "file": "hub-bottom-example.pen",
+  "role": "composition-example",
+  "localReusableComponents": 0,
+  "imports": [
+    {
+      "alias": "v",
+      "path": "hub-nav.lib.pen",
+      "componentId": "W42XvN"
+    },
+    {
+      "alias": "x",
+      "path": "hub-chat.lib.pen",
+      "componentId": "lIpLK"
+    }
+  ],
+  "size": [
+    430,
+    224
+  ],
+  "gap": 12,
+  "backdrop": "Local gradient fill; not a library component",
+  "verification": {
+    "bothLibrariesLoaded": "passed",
+    "portableRelativeImports": "passed",
+    "renderMatchesPreviousRGBA": true
+  }
+}

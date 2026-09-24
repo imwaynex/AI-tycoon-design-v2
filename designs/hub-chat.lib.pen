@@ -1,0 +1,333 @@
+{
+  "version": "2.18",
+  "children": [
+    {
+      "type": "frame",
+      "id": "J125lB",
+      "x": 0,
+      "y": 0,
+      "name": "AI Tycoon · Hub 聊天元件庫",
+      "width": 960,
+      "height": 560,
+      "fill": "#22282F",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "Kqf1h",
+          "x": 48,
+          "y": 36,
+          "name": "專案名稱",
+          "fill": "#92ABC5",
+          "content": "AI TYCOON  /  COMPONENT LIBRARY",
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "E1yhsV",
+          "x": 48,
+          "y": 66,
+          "name": "元件庫標題",
+          "fill": "#F5F8FC",
+          "content": "Hub 聊天元件庫",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 32,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "x7Hs5K",
+          "x": 48,
+          "y": 120,
+          "name": "來源摘要",
+          "fill": "#ABB8C8",
+          "content": "商會 / 私訊 / 世界 · 4 個主元件 · 不依賴導覽列或圖示",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "WtOGb",
+          "x": 48,
+          "y": 214,
+          "name": "Hub/Chat/Guild",
+          "context": "Figma 113:3583",
+          "reusable": true,
+          "width": 302,
+          "height": 33,
+          "fill": "#00000033",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "background_blur",
+            "radius": 4
+          },
+          "layout": "vertical",
+          "padding": [
+            8,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "x6syZA",
+              "name": "First line",
+              "height": 17,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M0KAX",
+                  "name": "Channel and sender",
+                  "fill": "#8DA0FF",
+                  "content": "[商會] FOMO價值投資者:",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                },
+                {
+                  "type": "text",
+                  "id": "m1gwq",
+                  "name": "Message",
+                  "fill": "#FFFFFF",
+                  "content": " 哪有每次買都被狙擊的",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g3Ruw",
+          "x": 480,
+          "y": 214,
+          "name": "Hub/Chat/Direct",
+          "context": "Figma 113:3585",
+          "reusable": true,
+          "width": 227,
+          "height": 33,
+          "fill": "#00000033",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "background_blur",
+            "radius": 4
+          },
+          "layout": "vertical",
+          "padding": [
+            8,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "d0HKV",
+              "name": "First line",
+              "height": 17,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d70sMi",
+                  "name": "Channel and sender",
+                  "fill": "#F48DFF",
+                  "content": "[私訊] FOMO價值投資者:",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                },
+                {
+                  "type": "text",
+                  "id": "aRdPG",
+                  "name": "Message",
+                  "fill": "#FFFFFF",
+                  "content": " 我會笑死",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zy4VC",
+          "x": 48,
+          "y": 334,
+          "name": "Hub/Chat/World",
+          "context": "Figma 113:3587",
+          "reusable": true,
+          "width": 398,
+          "height": 50,
+          "fill": "#00000033",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "background_blur",
+            "radius": 4
+          },
+          "layout": "vertical",
+          "padding": [
+            8,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "xv5Gk",
+              "name": "First line",
+              "height": 17,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "njYl2",
+                  "name": "Channel and sender",
+                  "fill": "#8DF5FF",
+                  "content": "[世界] FOMO價值投資者:",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                },
+                {
+                  "type": "text",
+                  "id": "sPPAA",
+                  "name": "Message",
+                  "fill": "#FFFFFF",
+                  "content": " 我會笑死，哪有每次買都被狙擊的，哈",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "SXN22",
+              "name": "Message continuation",
+              "fill": "#FFFFFF",
+              "content": "哈哈哈哈",
+              "lineHeight": 1.4166666666666667,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 0.48
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lIpLK",
+          "x": 480,
+          "y": 334,
+          "name": "Hub/Chat/Stack",
+          "context": "Figma 113:3582",
+          "reusable": true,
+          "width": 430,
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "id": "IFPvR",
+              "type": "ref",
+              "ref": "WtOGb",
+              "name": "Guild message"
+            },
+            {
+              "id": "bxGVb",
+              "type": "ref",
+              "ref": "g3Ruw",
+              "name": "Direct message"
+            },
+            {
+              "id": "RsTvA",
+              "type": "ref",
+              "ref": "zy4VC",
+              "name": "World message",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "f354F",
+          "x": 48,
+          "y": 174,
+          "name": "01 / 商會訊息",
+          "fill": "#ABB8C8",
+          "content": "01 / 商會訊息",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "xM80H",
+          "x": 480,
+          "y": 174,
+          "name": "02 / 私訊訊息",
+          "fill": "#ABB8C8",
+          "content": "02 / 私訊訊息",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "bNFcd",
+          "x": 48,
+          "y": 294,
+          "name": "03 / 世界訊息",
+          "fill": "#ABB8C8",
+          "content": "03 / 世界訊息",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "qnnCp",
+          "x": 480,
+          "y": 294,
+          "name": "04 / 聊天列表 · 430 × 128",
+          "fill": "#ABB8C8",
+          "content": "04 / 聊天列表 · 430 × 128",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "NqlgA",
+          "x": 48,
+          "y": 500,
+          "name": "保留原稿三則訊息與世界雙行內容；文字保持可編輯。",
+          "fill": "#ABB8C8",
+          "content": "保留原稿三則訊息與世界雙行內容；文字保持可編輯。",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ],
+  "fileToken": "2ec5a894-876b-4c9a-b558-22932d4e7d30"
+}

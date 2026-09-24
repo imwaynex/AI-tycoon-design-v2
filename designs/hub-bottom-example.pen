@@ -1,0 +1,59 @@
+{
+  "version": "2.18",
+  "children": [
+    {
+      "type": "frame",
+      "id": "u52umE",
+      "x": 0,
+      "y": 0,
+      "name": "Hub Bottom · 組合示例",
+      "width": 430,
+      "height": 224,
+      "fill": [
+        "#202020",
+        {
+          "type": "gradient",
+          "gradientType": "linear",
+          "enabled": true,
+          "rotation": 180,
+          "size": {
+            "height": 1
+          },
+          "colors": [
+            {
+              "color": "#000C2300",
+              "position": 0
+            },
+            {
+              "color": "#000C23A8",
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "layout": "vertical",
+      "gap": 12,
+      "children": [
+        {
+          "id": "N7f0uj",
+          "type": "ref",
+          "ref": "x:lIpLK",
+          "name": "Chat / imported",
+          "width": "fill_container"
+        },
+        {
+          "id": "C8Ig7B",
+          "type": "ref",
+          "ref": "v:W42XvN",
+          "name": "Nav / imported",
+          "width": "fill_container"
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "v": "hub-nav.lib.pen",
+    "x": "hub-chat.lib.pen"
+  },
+  "fileToken": "c66caf85-2615-43d4-99eb-bda45eafddf1"
+}

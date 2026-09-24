@@ -1,81 +1,42 @@
-# Hub 底部元件庫
+# Hub 導覽列與聊天元件庫
 
-使用 pen.dev CLI 0.3.8 的 `interactive` 模式建立，共 11 個可重用主元件（含內部字形元件）。這是可編輯的 Pen 設計元件庫，屬視覺參考；不是產品程式元件或正式 UX 驗收結果。
+底部元件已拆成兩份獨立的維護來源。兩份庫互不引用，各自保留全部必要子元件；導覽的五項順序、圖示、文字外框及聊天內容保持不變。
 
-- [元件庫檔案](hub-bottom-components.lib.pen)
-- [元件總覽](hub-bottom-assets/library-preview@2x.png)
-- [完整底部預覽](hub-bottom-assets/bottom-preview@2x.png)
-- [導覽文字外框放大檢查](hub-bottom-assets/nav-outline-detail@12x.png)
-- [元件 ID、來源對照與素材雜湊](hub-bottom-assets/manifest.json)
-- [Figma 來源：Frame 57，113:3581](https://www.figma.com/design/G5qDSKMMzOrJNd3HTv8hai/Untitled?node-id=113-3581)，擷取日期：2026-09-23。
-
-## 元件清單
-
-| 名稱 | 尺寸（px） | 內容 |
+| 元件庫 | 主元件 | 文件與預覽 |
 |---|---|---|
-| `Hub/Icon/City` | 56 × 56 | 使用指定 Popboard v1 的 city.png。 |
-| `Hub/Nav/Label` | 67 × 20 | 城市文字標籤，含 1.5px 黑色外框。 |
-| `Hub/Nav/Glyph` | 64 × 17 | 字面與外框共用的可編輯文字；標籤內保留 1.5px 外框空間。 |
-| `Hub/Nav/Item` | 67 × 64 | 圖示與標籤的連動實例。 |
-| `Hub/Bottom/Backdrop` | 430 × 224 | 透明至深藍的漸層底板。 |
-| `Hub/Chat/Guild` | 302 × 33 | 商會訊息，紫藍頻道與發言者文字。 |
-| `Hub/Chat/Direct` | 227 × 33 | 私訊訊息，粉紫頻道與發言者文字。 |
-| `Hub/Chat/World` | 398 × 50 | 世界訊息，青色頻道與原稿雙行文字。 |
-| `Hub/Chat/Stack` | 430 × 128 | 三種訊息主元件的實例，間距 6px。 |
-| `Hub/Nav/Bar` | 430 × 84 | 五個導覽項目實例，間距 8px，底部留白 20px。 |
-| `Hub/Bottom/Block` | 430 × 224 | 底板、聊天列表與導覽列的完整組合。 |
+| [導覽列](hub-nav.lib.pen) | 圖示、標籤、字形、導覽項目、導覽列，共 5 個。 | [維護說明](hub-nav.md) · [預覽](hub-nav-assets/library-preview@2x.png) |
+| [聊天](hub-chat.lib.pen) | 商會、私訊、世界訊息及聊天列表，共 4 個。 | [維護說明](hub-chat.md) · [預覽](hub-chat-preview@2x.png) |
 
-五個入口共用 `Hub/Nav/Item`，其內再引用圖示與標籤。尺寸、字型與外框結構沿用主元件；每個入口以實例覆寫圖示、字面與全部黑色輪廓的文字。每個來源物件的 Figma ID 可由清單追溯。
+## 組合示例
 
-## 導覽項目
+[hub-bottom-example.pen](hub-bottom-example.pen) 使用兩份元件庫的匯入實例，沒有重複的聊天或導覽主元件。[組合清單](hub-bottom-example.manifest.json)記錄引用與驗證；[底部預覽](hub-bottom-assets/bottom-preview@2x.png)保留 430 × 224px 的配置。
 
-依使用者於 2026-09-24 指定的順序與本地素材替換。五份 PNG 直接複製，沒有裁切、縮放原檔或重複套用光學校準；顯示框保持 56 × 56px，使用等比例置入。
+示例只負責漸層底板、12px 間距與兩個元件的位置。底板及完整底部容器不再作為元件庫中的主元件。導覽修改回到 `hub-nav.lib.pen`，聊天修改回到 `hub-chat.lib.pen`，更新後重新載入使用端的元件庫。
 
-| 由左至右 | 文字 | 圖示 |
-|---|---|---|
-| 1 | 城市 | `city.png` |
-| 2 | 事件 | `event.png` |
-| 3 | 商會 | `shield.png` |
-| 4 | 排行 | `ranking.png` |
-| 5 | 資產 | `wallet-color.png` |
+搬移示例時，兩份 `.lib.pen` 與示例放在同一層，並攜帶 `hub-nav-assets/`。已在另一個資料夾重開示例，確認相對引用指向搬移後的兩份庫。
 
-來源：`assets/icons/popboard-v1/png/`；本庫素材副本位於 `hub-bottom-assets/nav/`，來源路徑與 SHA-256 記錄在清單。
+## 從舊庫移轉
 
-## 使用方式
+原 `hub-bottom-components.lib.pen` 已由兩份庫取代，不再保留第三份可獨立修改的元件來源。舊檔及歷史預覽可從 Git 歷史取得。
 
-用 pen.dev 開啟 `.lib.pen` 可檢視及編輯全部主元件。搬移時保留整個 `hub-bottom-assets/nav/` 與檔案的相對位置。
+- 既有導覽使用端：匯入新導覽庫，以工具回傳的代號引用 `W42XvN`。
+- 既有聊天使用端：匯入新聊天庫，以工具回傳的代號引用 `lIpLK`。
+- 既有完整底部使用端：使用組合示例，或以聊天列表與導覽列組合。舊 `Hub/Bottom/Block` 與 `Hub/Bottom/Backdrop` 不再列為主元件。
 
-在倉庫根目錄啟動另一份檔案：
-
-```sh
-pen interactive --out designs/my-screen.pen
-```
-
-在 CLI 互動模式匯入：
+在倉庫根目錄的 pen.dev CLI 互動模式按需求匯入：
 
 ```js
-import_library({path:"designs/hub-bottom-components.lib.pen"})
+import_library({path:"designs/hub-nav.lib.pen"})
+import_library({path:"designs/hub-chat.lib.pen"})
 get_app_state()
 ```
 
-工具會回傳元件庫代號及元件 ID。使用回傳值建立 `type: "ref"` 的實例；例如代號為 `H` 時，完整底部元件為 `H:i2XRNO`。不要假設每次匯入的代號相同。聊天文字可覆寫 `Channel and sender`、`Message` 等子圖層；世界訊息另有 `Message continuation`，變更內容後需調整分行。完成後執行 `save()`。
+ID 在拆分後保留；元件庫代號依匯入結果而定。既有文件需更新引用，不能只替換檔名。
 
-## 來源差異與適用界線
+## 來源與驗證
 
-依 [Hub 正式規範](../docs/hub/AI-Tycoon-Hub-UI佈局與RWD行為規範.md) 判定產品要求，本庫保留使用者指定稿的外觀：
+原始圖層來源：[Figma Frame 57，113:3581](https://www.figma.com/design/G5qDSKMMzOrJNd3HTv8hai/Untitled?node-id=113-3581)。使用者指定的導覽及原稿聊天與正式規範的差異，各自在元件庫維護文件記錄。
 
-| 原稿 | 正式來源 | 影響與待決內容 |
-|---|---|---|
-| 世界訊息為兩行。 | 第 4.4 節要求每則預覽一行。 | 本庫保存原稿，產品採用前由維護者決定單行摘要內容。 |
-| 使用者此次指定城市、事件、商會、排行、資產。 | 第 4.5 節仍記錄大廳、事件、商會、排行、我的。 | 本次授權更新設計元件庫；正式產品目的地條款的同步決策仍由維護者處理。 |
-| 430px 固定寬度與原稿樣式值。 | 共用規範及 token；Hub 導讀的待決映射。 | 本庫不新增全域 token；自適應配置、橫向模式與產品映射仍待維護者決定。 |
+已透過 pen.dev CLI 建立兩份庫，檢查主元件數量、內部引用、圖層邊界、匯入、相對路徑及預覽。組合示例匯出的 860 × 448px PNG 已與拆分前逐像素比較。倉庫檢查命令與結果見交付 PR。
 
-導覽原稿使用 14px Noto Sans TC Black、1.5px 黑色外側圓角描邊。Pen CLI 儲存時未保留文字原生描邊，因此改用 24 個 `Hub/Nav/Glyph` 的黑色實例，以 1.5px 半徑環繞字面，形成可保存的外框。`Hub/Nav/Glyph` 提供共用字型與字形結構；目前五個入口各自覆寫名稱，修改主元件文字不會蓋過這些覆寫。勿只覆寫其中一個黑色實例。若單一導覽需不同名稱，需在其標籤實例內同時覆寫字面與 24 個輪廓實例的 `content`。
-
-文字保持可編輯；沒有點陣化文字。高倍率輪廓取樣與 Figma 不是逐像素相同。聊天文字未在本次修正範圍內。
-
-## 驗證
-
-已透過 CLI 完成主元件列舉、連動組合與圖層邊界檢查，並檢視元件總覽和完整區塊截圖。另啟動空白 Pen 文件匯入本庫，確認全部 11 個主元件可用，完整區塊的巢狀實例與城市素材可正常顯示。
-
-外框修正後另檢查 12 倍放大圖、五個連動實例與重新開檔後的輪廓保存結果。倉庫檢查命令與結果見交付 PR。尚未執行產品實機 RWD、鍵盤、焦點及無障礙驗收；本庫沒有加入點擊或聊天互動。
+本次只拆分設計維護來源，沒有修改正式規範或全域 token，也不代表產品實機 RWD、鍵盤、焦點或無障礙驗收通過。

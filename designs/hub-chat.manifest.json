@@ -1,0 +1,62 @@
+{
+  "library": "hub-chat.lib.pen",
+  "role": "visual-reference",
+  "source": "https://www.figma.com/design/G5qDSKMMzOrJNd3HTv8hai/Untitled?node-id=113-3581",
+  "splitOn": "2026-09-25",
+  "entryComponentId": "lIpLK",
+  "components": [
+    {
+      "name": "Hub/Chat/Guild",
+      "id": "WtOGb",
+      "size": [
+        302,
+        33
+      ],
+      "figmaNodeIds": [
+        "113:3583"
+      ]
+    },
+    {
+      "name": "Hub/Chat/Direct",
+      "id": "g3Ruw",
+      "size": [
+        227,
+        33
+      ],
+      "figmaNodeIds": [
+        "113:3585"
+      ]
+    },
+    {
+      "name": "Hub/Chat/World",
+      "id": "zy4VC",
+      "size": [
+        398,
+        50
+      ],
+      "figmaNodeIds": [
+        "113:3587"
+      ]
+    },
+    {
+      "name": "Hub/Chat/Stack",
+      "id": "lIpLK",
+      "size": [
+        430,
+        128
+      ],
+      "figmaNodeIds": [
+        "113:3582"
+      ]
+    }
+  ],
+  "libraryDependencies": [],
+  "verification": {
+    "componentCount": 4,
+    "danglingReferences": [],
+    "importIntoComposition": "passed",
+    "visualPreview": "passed",
+    "layoutClippingCheck": "passed"
+  },
+  "assets": []
+}
