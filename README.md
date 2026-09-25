@@ -4,6 +4,8 @@
 
 [Hub 元件庫入口](designs/hub-bottom-components.md)：導覽列與聊天已拆成兩份可獨立匯入的 Pen 元件庫，另提供引用兩份庫的底部組合示例。
 
+[直向 Hub 主稿](designs/hub-portrait.pen) 已引用兩份底部元件庫，支援調整畫框寬度；[配置與驗證](designs/hub-bottom-components.md#直向-hub-主稿)記錄使用方式與範圍。
+
 ## 依任務閱讀
 
 | 任務 | 入口與後續來源 |

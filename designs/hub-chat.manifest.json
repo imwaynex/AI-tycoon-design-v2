@@ -52,51 +52,46 @@
   ],
   "libraryDependencies": [],
   "verification": {
-    "componentCount": 11,
+    "componentCount": 10,
     "danglingReferences": [],
     "importIntoComposition": "passed",
     "visualPreview": "passed",
     "layoutClippingCheck": "passed",
     "publicComponentCount": 4,
-    "internalTextSourceCount": 7,
-    "savedLibraryImportedOutlineInstances": 168
+    "internalTextSourceCount": 6,
+    "savedLibraryImportedOutlineInstances": 72
   },
   "assets": [],
   "internalTextSources": [
     {
       "id": "M0KAX",
       "channel": "Guild",
-      "part": "Channel and sender"
+      "part": "Channel color overlay"
     },
     {
       "id": "m1gwq",
       "channel": "Guild",
-      "part": "Message"
+      "part": "Full message"
     },
     {
       "id": "d70sMi",
       "channel": "Direct",
-      "part": "Channel and sender"
+      "part": "Channel color overlay"
     },
     {
       "id": "aRdPG",
       "channel": "Direct",
-      "part": "Message"
+      "part": "Full message"
     },
     {
       "id": "njYl2",
       "channel": "World",
-      "part": "Channel and sender"
+      "part": "Channel color overlay"
     },
     {
       "id": "sPPAA",
       "channel": "World",
-      "part": "Message"
-    },
-    {
-      "id": "SXN22",
-      "channel": "World",
-      "part": "Message continuation"
+      "part": "Full message"
     }
   ],
   "textOutline": {
@@ -110,8 +105,14 @@
     "radiusPx": 1.5,
     "sourceAlignment": "OUTSIDE",
     "sourceJoin": "ROUND",
-    "implementation": "24 linked black text instances around each editable foreground; circular-offset approximation",
-    "outlinedTextSources": 7,
-    "outlineInstances": 168
+    "implementation": "24 linked black full-message instances per message, width synchronized with foreground",
+    "outlinedTextSources": 3,
+    "outlineInstances": 72
+  },
+  "responsiveText": {
+    "behavior": "Full message wraps continuously across the message content width; continuation returns to the left edge",
+    "fixedContinuationRemoved": "SXN22",
+    "height": "fit_content",
+    "prefixColor": "first-line color overlay; prefix must fit first line"
   }
 }

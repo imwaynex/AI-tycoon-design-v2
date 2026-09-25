@@ -1,0 +1,99 @@
+{
+  "file": "hub-portrait.pen",
+  "role": "visual-reference",
+  "frameId": "IRZ3G",
+  "baselineSize": [
+    430,
+    932
+  ],
+  "updatedOn": "2026-09-26",
+  "bottomFrameId": "r1tIm",
+  "chatInstanceId": "RdHhC",
+  "navInstanceId": "cXpsV",
+  "imports": [
+    "hub-chat.lib.pen",
+    "hub-nav.lib.pen"
+  ],
+  "layout": {
+    "bottomWidth": "fill_container",
+    "navColumns": 5,
+    "navItemWidth": "(deviceWidth - 32) / 5",
+    "iconSize": 56,
+    "labelFontSize": 14,
+    "outlineRadius": 1.5,
+    "chatContent": "Full message wraps continuously across the content width; continuation starts at left edge; no fixed second line",
+    "bottomSafeSpace": 34
+  },
+  "verification": {
+    "widths": [
+      320,
+      360,
+      375,
+      390,
+      414,
+      430,
+      768
+    ],
+    "bottomHeights": [
+      241,
+      224,
+      224,
+      224,
+      224,
+      224,
+      207
+    ],
+    "bottomContainerOverflow": [],
+    "outlinedBodyLayers": 72,
+    "outlineContainment": "72 full-message outline texts checked against enclosing text containers; intentional overflow from 1px overlay rows",
+    "shortHeightCheck": {
+      "width": 430,
+      "height": 568,
+      "bottomY": 330,
+      "bottomHeight": 224
+    },
+    "messageLineCounts": {
+      "320": [
+        2,
+        1,
+        2
+      ],
+      "360": [
+        1,
+        1,
+        2
+      ],
+      "375": [
+        1,
+        1,
+        2
+      ],
+      "390": [
+        1,
+        1,
+        2
+      ],
+      "414": [
+        1,
+        1,
+        2
+      ],
+      "430": [
+        1,
+        1,
+        2
+      ],
+      "768": [
+        1,
+        1,
+        1
+      ]
+    },
+    "savedLibraryReload": "passed after reopening main design"
+  },
+  "limitations": [
+    "Preserves existing top blur overlay, including its original -83px offset; this task verifies the bottom region.",
+    "No runtime device safe-area, keyboard, focus or landscape behavior implemented.",
+    "Original multiline chat preview and city/assets labels differ from current formal Hub rules."
+  ]
+}

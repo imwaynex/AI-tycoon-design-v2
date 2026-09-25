@@ -29,11 +29,12 @@
     },
     "chatOutlineRefresh": {
       "date": "2026-09-26",
-      "outlineInstances": 168,
-      "foregroundTextLayers": 7,
+      "outlineInstances": 72,
+      "foregroundTextLayers": 6,
       "layoutClippingCheck": "passed",
       "visualPreview": "passed",
       "exampleResaved": true
-    }
+    },
+    "continuousTextWrapping": "updated 2026-09-26"
   }
 }
