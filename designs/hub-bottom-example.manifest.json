@@ -1,0 +1,40 @@
+{
+  "file": "hub-bottom-example.pen",
+  "role": "composition-example",
+  "localReusableComponents": 0,
+  "imports": [
+    {
+      "alias": "v",
+      "path": "hub-nav.lib.pen",
+      "componentId": "W42XvN"
+    },
+    {
+      "alias": "x",
+      "path": "hub-chat.lib.pen",
+      "componentId": "lIpLK"
+    }
+  ],
+  "size": [
+    430,
+    224
+  ],
+  "gap": 12,
+  "backdrop": "Local gradient fill; not a library component",
+  "verification": {
+    "bothLibrariesLoaded": "passed",
+    "portableRelativeImports": "passed",
+    "splitBaselineComparison": {
+      "date": "2026-09-25",
+      "renderMatchesPreSplitRGBA": true
+    },
+    "chatOutlineRefresh": {
+      "date": "2026-09-26",
+      "outlineInstances": 72,
+      "foregroundTextLayers": 6,
+      "layoutClippingCheck": "passed",
+      "visualPreview": "passed",
+      "exampleResaved": true
+    },
+    "continuousTextWrapping": "updated 2026-09-26"
+  }
+}

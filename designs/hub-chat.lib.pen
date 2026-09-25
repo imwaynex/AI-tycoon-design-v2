@@ -1,0 +1,2181 @@
+{
+  "version": "2.18",
+  "children": [
+    {
+      "type": "frame",
+      "id": "J125lB",
+      "x": 0,
+      "y": 0,
+      "name": "AI Tycoon · Hub 聊天元件庫",
+      "width": 960,
+      "height": 560,
+      "fill": "#22282F",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "Kqf1h",
+          "x": 48,
+          "y": 36,
+          "name": "專案名稱",
+          "fill": "#92ABC5",
+          "content": "AI TYCOON  /  COMPONENT LIBRARY",
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "E1yhsV",
+          "x": 48,
+          "y": 66,
+          "name": "元件庫標題",
+          "fill": "#F5F8FC",
+          "content": "Hub 聊天元件庫",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 32,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "x7Hs5K",
+          "x": 48,
+          "y": 120,
+          "name": "來源摘要",
+          "fill": "#ABB8C8",
+          "content": "商會 / 私訊 / 世界 · 4 個主元件 · 全文連續自動換行",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "WtOGb",
+          "x": 48,
+          "y": 214,
+          "name": "Hub/Chat/Guild",
+          "context": "Figma 113:3583",
+          "reusable": true,
+          "width": 302,
+          "fill": "#00000033",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "background_blur",
+            "radius": 4
+          },
+          "layout": "vertical",
+          "padding": [
+            6.5,
+            14.5
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "f7qd9",
+              "name": "Message / continuous responsive text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": -1,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H5fLyL",
+                  "name": "Outline layer 1",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.5,
+                    0,
+                    0,
+                    3
+                  ],
+                  "children": [
+                    {
+                      "id": "sQ2TK",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r8XZ89",
+                  "name": "Outline layer 2",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.888228567653781,
+                    0.051111260566397476,
+                    0,
+                    2.9488887394336025
+                  ],
+                  "children": [
+                    {
+                      "id": "nBQID",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N57NU",
+                  "name": "Outline layer 3",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.25,
+                    0.200961894323342,
+                    0,
+                    2.799038105676658
+                  ],
+                  "children": [
+                    {
+                      "id": "rj2Fn",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Zo0vD",
+                  "name": "Outline layer 4",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.560660171779821,
+                    0.4393398282201786,
+                    0,
+                    2.5606601717798214
+                  ],
+                  "children": [
+                    {
+                      "id": "i1cSJ3",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BHJ4O",
+                  "name": "Outline layer 5",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.799038105676658,
+                    0.75,
+                    0,
+                    2.25
+                  ],
+                  "children": [
+                    {
+                      "id": "vMlVi",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z2jtis",
+                  "name": "Outline layer 6",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.9488887394336025,
+                    1.111771432346219,
+                    0,
+                    1.888228567653781
+                  ],
+                  "children": [
+                    {
+                      "id": "UftQw",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XyWbj",
+                  "name": "Outline layer 7",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    3,
+                    1.5,
+                    0,
+                    1.5
+                  ],
+                  "children": [
+                    {
+                      "id": "G9sVTC",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jdArR",
+                  "name": "Outline layer 8",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.9488887394336025,
+                    1.8882285676537809,
+                    0,
+                    1.1117714323462191
+                  ],
+                  "children": [
+                    {
+                      "id": "YRPDJ",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZGJnY",
+                  "name": "Outline layer 9",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.799038105676658,
+                    2.2499999999999996,
+                    0,
+                    0.7500000000000003
+                  ],
+                  "children": [
+                    {
+                      "id": "G6BwEY",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BQ698",
+                  "name": "Outline layer 10",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.5606601717798214,
+                    2.560660171779821,
+                    0,
+                    0.4393398282201788
+                  ],
+                  "children": [
+                    {
+                      "id": "OExPO",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Tudln",
+                  "name": "Outline layer 11",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.25,
+                    2.799038105676658,
+                    0,
+                    0.200961894323342
+                  ],
+                  "children": [
+                    {
+                      "id": "YloRY",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bxNys",
+                  "name": "Outline layer 12",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.8882285676537816,
+                    2.9488887394336025,
+                    0,
+                    0.0511112605663977
+                  ],
+                  "children": [
+                    {
+                      "id": "xHa8y",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Qdqrv",
+                  "name": "Outline layer 13",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.5000000000000002,
+                    3,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "id": "HKoT5",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FrN0q",
+                  "name": "Outline layer 14",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.111771432346219,
+                    2.9488887394336025,
+                    0,
+                    0.051111260566397476
+                  ],
+                  "children": [
+                    {
+                      "id": "whBS9",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KhoQl",
+                  "name": "Outline layer 15",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.7500000000000004,
+                    2.799038105676658,
+                    0,
+                    0.20096189432334177
+                  ],
+                  "children": [
+                    {
+                      "id": "rspfp",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "trp88",
+                  "name": "Outline layer 16",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.43933982822017925,
+                    2.560660171779822,
+                    0,
+                    0.43933982822017814
+                  ],
+                  "children": [
+                    {
+                      "id": "yqneC",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wDgdg",
+                  "name": "Outline layer 17",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.20096189432334222,
+                    2.250000000000001,
+                    0,
+                    0.7499999999999993
+                  ],
+                  "children": [
+                    {
+                      "id": "SPK45",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vujdo",
+                  "name": "Outline layer 18",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.051111260566397476,
+                    1.8882285676537809,
+                    0,
+                    1.1117714323462191
+                  ],
+                  "children": [
+                    {
+                      "id": "c2pvm",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JjlUs",
+                  "name": "Outline layer 19",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0,
+                    1.5000000000000002,
+                    0,
+                    1.4999999999999998
+                  ],
+                  "children": [
+                    {
+                      "id": "bENJO",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SI3RT",
+                  "name": "Outline layer 20",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.051111260566397476,
+                    1.1117714323462196,
+                    0,
+                    1.8882285676537804
+                  ],
+                  "children": [
+                    {
+                      "id": "pmHgL",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vQjWi",
+                  "name": "Outline layer 21",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.200961894323342,
+                    0.75,
+                    0,
+                    2.25
+                  ],
+                  "children": [
+                    {
+                      "id": "WJpEx",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AipVq",
+                  "name": "Outline layer 22",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.4393398282201786,
+                    0.43933982822017903,
+                    0,
+                    2.560660171779821
+                  ],
+                  "children": [
+                    {
+                      "id": "Q81qZc",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sOdRq",
+                  "name": "Outline layer 23",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.7499999999999993,
+                    0.20096189432334244,
+                    0,
+                    2.7990381056766576
+                  ],
+                  "children": [
+                    {
+                      "id": "YoVtz",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s7mfL",
+                  "name": "Outline layer 24",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.1117714323462176,
+                    0.05111126056639792,
+                    0,
+                    2.948888739433602
+                  ],
+                  "children": [
+                    {
+                      "id": "b856L",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "u21KW",
+                  "name": "Full message foreground",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": 1.5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m1gwq",
+                      "name": "Full message",
+                      "context": "Complete message including channel/sender; one continuous wrapping text source.",
+                      "reusable": true,
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "[商會] FOMO價值投資者: 哪有每次買都被狙擊的",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.48
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "M0KAX",
+                  "layoutPosition": "absolute",
+                  "x": 1.5,
+                  "y": 1.5,
+                  "name": "Channel color overlay",
+                  "context": "Colored overlay for the first-line prefix; keep this prefix identical to the start of Full message.",
+                  "reusable": true,
+                  "fill": "#8DA0FF",
+                  "content": "[商會] FOMO價值投資者:",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g3Ruw",
+          "x": 480,
+          "y": 214,
+          "name": "Hub/Chat/Direct",
+          "context": "Figma 113:3585",
+          "reusable": true,
+          "width": 227,
+          "fill": "#00000033",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "background_blur",
+            "radius": 4
+          },
+          "layout": "vertical",
+          "padding": [
+            6.5,
+            14.5
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "n9ZiYb",
+              "name": "Message / continuous responsive text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": -1,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "c6kNBr",
+                  "name": "Outline layer 1",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.5,
+                    0,
+                    0,
+                    3
+                  ],
+                  "children": [
+                    {
+                      "id": "Wz6qh",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BWmpm",
+                  "name": "Outline layer 2",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.888228567653781,
+                    0.051111260566397476,
+                    0,
+                    2.9488887394336025
+                  ],
+                  "children": [
+                    {
+                      "id": "TqhtC",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jY8lu",
+                  "name": "Outline layer 3",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.25,
+                    0.200961894323342,
+                    0,
+                    2.799038105676658
+                  ],
+                  "children": [
+                    {
+                      "id": "ykFNE",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TSC4V",
+                  "name": "Outline layer 4",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.560660171779821,
+                    0.4393398282201786,
+                    0,
+                    2.5606601717798214
+                  ],
+                  "children": [
+                    {
+                      "id": "b41ScU",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KTntS",
+                  "name": "Outline layer 5",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.799038105676658,
+                    0.75,
+                    0,
+                    2.25
+                  ],
+                  "children": [
+                    {
+                      "id": "TeEd8",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sNi1m",
+                  "name": "Outline layer 6",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.9488887394336025,
+                    1.111771432346219,
+                    0,
+                    1.888228567653781
+                  ],
+                  "children": [
+                    {
+                      "id": "YmjX6",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R9TqlP",
+                  "name": "Outline layer 7",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    3,
+                    1.5,
+                    0,
+                    1.5
+                  ],
+                  "children": [
+                    {
+                      "id": "kWT7y",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mfv0S",
+                  "name": "Outline layer 8",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.9488887394336025,
+                    1.8882285676537809,
+                    0,
+                    1.1117714323462191
+                  ],
+                  "children": [
+                    {
+                      "id": "ZiYyl",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W0JjWm",
+                  "name": "Outline layer 9",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.799038105676658,
+                    2.2499999999999996,
+                    0,
+                    0.7500000000000003
+                  ],
+                  "children": [
+                    {
+                      "id": "PMhmX",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TxNr2",
+                  "name": "Outline layer 10",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.5606601717798214,
+                    2.560660171779821,
+                    0,
+                    0.4393398282201788
+                  ],
+                  "children": [
+                    {
+                      "id": "aZUeR",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T31YlN",
+                  "name": "Outline layer 11",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.25,
+                    2.799038105676658,
+                    0,
+                    0.200961894323342
+                  ],
+                  "children": [
+                    {
+                      "id": "acuB3",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TbZPE",
+                  "name": "Outline layer 12",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.8882285676537816,
+                    2.9488887394336025,
+                    0,
+                    0.0511112605663977
+                  ],
+                  "children": [
+                    {
+                      "id": "OXpZD",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bt2Ae",
+                  "name": "Outline layer 13",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.5000000000000002,
+                    3,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "id": "wT8zq",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C3CbpT",
+                  "name": "Outline layer 14",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.111771432346219,
+                    2.9488887394336025,
+                    0,
+                    0.051111260566397476
+                  ],
+                  "children": [
+                    {
+                      "id": "zRBj2",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gIYpK",
+                  "name": "Outline layer 15",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.7500000000000004,
+                    2.799038105676658,
+                    0,
+                    0.20096189432334177
+                  ],
+                  "children": [
+                    {
+                      "id": "dzinB",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z3DLg",
+                  "name": "Outline layer 16",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.43933982822017925,
+                    2.560660171779822,
+                    0,
+                    0.43933982822017814
+                  ],
+                  "children": [
+                    {
+                      "id": "EPXPJ",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NoFRa",
+                  "name": "Outline layer 17",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.20096189432334222,
+                    2.250000000000001,
+                    0,
+                    0.7499999999999993
+                  ],
+                  "children": [
+                    {
+                      "id": "UXAaz",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y5xvLL",
+                  "name": "Outline layer 18",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.051111260566397476,
+                    1.8882285676537809,
+                    0,
+                    1.1117714323462191
+                  ],
+                  "children": [
+                    {
+                      "id": "hCEXW",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Hppwp",
+                  "name": "Outline layer 19",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0,
+                    1.5000000000000002,
+                    0,
+                    1.4999999999999998
+                  ],
+                  "children": [
+                    {
+                      "id": "SjUxE",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FR5dg",
+                  "name": "Outline layer 20",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.051111260566397476,
+                    1.1117714323462196,
+                    0,
+                    1.8882285676537804
+                  ],
+                  "children": [
+                    {
+                      "id": "JMYqn",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mdVWX",
+                  "name": "Outline layer 21",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.200961894323342,
+                    0.75,
+                    0,
+                    2.25
+                  ],
+                  "children": [
+                    {
+                      "id": "kITdD",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t93pQb",
+                  "name": "Outline layer 22",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.4393398282201786,
+                    0.43933982822017903,
+                    0,
+                    2.560660171779821
+                  ],
+                  "children": [
+                    {
+                      "id": "w4c7Y",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EL2JV",
+                  "name": "Outline layer 23",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.7499999999999993,
+                    0.20096189432334244,
+                    0,
+                    2.7990381056766576
+                  ],
+                  "children": [
+                    {
+                      "id": "xYTgA",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WNoid",
+                  "name": "Outline layer 24",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.1117714323462176,
+                    0.05111126056639792,
+                    0,
+                    2.948888739433602
+                  ],
+                  "children": [
+                    {
+                      "id": "Rev1o",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D0QFRC",
+                  "name": "Full message foreground",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": 1.5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aRdPG",
+                      "name": "Full message",
+                      "context": "Complete message including channel/sender; one continuous wrapping text source.",
+                      "reusable": true,
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "[私訊] FOMO價值投資者: 我會笑死",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.48
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "d70sMi",
+                  "layoutPosition": "absolute",
+                  "x": 1.5,
+                  "y": 1.5,
+                  "name": "Channel color overlay",
+                  "context": "Colored overlay for the first-line prefix; keep this prefix identical to the start of Full message.",
+                  "reusable": true,
+                  "fill": "#F48DFF",
+                  "content": "[私訊] FOMO價值投資者:",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zy4VC",
+          "x": 48,
+          "y": 334,
+          "name": "Hub/Chat/World",
+          "context": "Figma 113:3587",
+          "reusable": true,
+          "width": 398,
+          "fill": "#00000033",
+          "cornerRadius": 24,
+          "effect": {
+            "type": "background_blur",
+            "radius": 4
+          },
+          "layout": "vertical",
+          "padding": [
+            6.5,
+            14.5
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "VDOIt",
+              "name": "Message / continuous responsive text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": -1,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "v59ksg",
+                  "name": "Outline layer 1",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.5,
+                    0,
+                    0,
+                    3
+                  ],
+                  "children": [
+                    {
+                      "id": "ROa8Y",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SN1hA",
+                  "name": "Outline layer 2",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.888228567653781,
+                    0.051111260566397476,
+                    0,
+                    2.9488887394336025
+                  ],
+                  "children": [
+                    {
+                      "id": "Nd65h",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SCzna",
+                  "name": "Outline layer 3",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.25,
+                    0.200961894323342,
+                    0,
+                    2.799038105676658
+                  ],
+                  "children": [
+                    {
+                      "id": "N8bVb",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ngcji",
+                  "name": "Outline layer 4",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.560660171779821,
+                    0.4393398282201786,
+                    0,
+                    2.5606601717798214
+                  ],
+                  "children": [
+                    {
+                      "id": "bHTJn",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Dy0n3",
+                  "name": "Outline layer 5",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.799038105676658,
+                    0.75,
+                    0,
+                    2.25
+                  ],
+                  "children": [
+                    {
+                      "id": "ypkz6",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W7USk",
+                  "name": "Outline layer 6",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.9488887394336025,
+                    1.111771432346219,
+                    0,
+                    1.888228567653781
+                  ],
+                  "children": [
+                    {
+                      "id": "H6pqw",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fskgP",
+                  "name": "Outline layer 7",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    3,
+                    1.5,
+                    0,
+                    1.5
+                  ],
+                  "children": [
+                    {
+                      "id": "nid5A",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EZ9EO",
+                  "name": "Outline layer 8",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.9488887394336025,
+                    1.8882285676537809,
+                    0,
+                    1.1117714323462191
+                  ],
+                  "children": [
+                    {
+                      "id": "i7taq",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ESGyw",
+                  "name": "Outline layer 9",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.799038105676658,
+                    2.2499999999999996,
+                    0,
+                    0.7500000000000003
+                  ],
+                  "children": [
+                    {
+                      "id": "ePXjU",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VUp9k",
+                  "name": "Outline layer 10",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.5606601717798214,
+                    2.560660171779821,
+                    0,
+                    0.4393398282201788
+                  ],
+                  "children": [
+                    {
+                      "id": "N8KAT9",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bLMzh",
+                  "name": "Outline layer 11",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    2.25,
+                    2.799038105676658,
+                    0,
+                    0.200961894323342
+                  ],
+                  "children": [
+                    {
+                      "id": "D08h0H",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uHczb",
+                  "name": "Outline layer 12",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.8882285676537816,
+                    2.9488887394336025,
+                    0,
+                    0.0511112605663977
+                  ],
+                  "children": [
+                    {
+                      "id": "NlYDH",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZJ9tJ",
+                  "name": "Outline layer 13",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.5000000000000002,
+                    3,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "id": "VSjaa",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hrnsp",
+                  "name": "Outline layer 14",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.111771432346219,
+                    2.9488887394336025,
+                    0,
+                    0.051111260566397476
+                  ],
+                  "children": [
+                    {
+                      "id": "BMH21",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mU71v",
+                  "name": "Outline layer 15",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.7500000000000004,
+                    2.799038105676658,
+                    0,
+                    0.20096189432334177
+                  ],
+                  "children": [
+                    {
+                      "id": "f45GOx",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eikMw",
+                  "name": "Outline layer 16",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.43933982822017925,
+                    2.560660171779822,
+                    0,
+                    0.43933982822017814
+                  ],
+                  "children": [
+                    {
+                      "id": "uCkXy",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fGuwi",
+                  "name": "Outline layer 17",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.20096189432334222,
+                    2.250000000000001,
+                    0,
+                    0.7499999999999993
+                  ],
+                  "children": [
+                    {
+                      "id": "bdb7o",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aX6Yr",
+                  "name": "Outline layer 18",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.051111260566397476,
+                    1.8882285676537809,
+                    0,
+                    1.1117714323462191
+                  ],
+                  "children": [
+                    {
+                      "id": "PDFou",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mIWfD",
+                  "name": "Outline layer 19",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0,
+                    1.5000000000000002,
+                    0,
+                    1.4999999999999998
+                  ],
+                  "children": [
+                    {
+                      "id": "txBbG",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "okcKd",
+                  "name": "Outline layer 20",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.051111260566397476,
+                    1.1117714323462196,
+                    0,
+                    1.8882285676537804
+                  ],
+                  "children": [
+                    {
+                      "id": "Xyai6",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CnbXi",
+                  "name": "Outline layer 21",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.200961894323342,
+                    0.75,
+                    0,
+                    2.25
+                  ],
+                  "children": [
+                    {
+                      "id": "yIGH6",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qxmaY",
+                  "name": "Outline layer 22",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.4393398282201786,
+                    0.43933982822017903,
+                    0,
+                    2.560660171779821
+                  ],
+                  "children": [
+                    {
+                      "id": "y6dAro",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DeGeV",
+                  "name": "Outline layer 23",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0.7499999999999993,
+                    0.20096189432334244,
+                    0,
+                    2.7990381056766576
+                  ],
+                  "children": [
+                    {
+                      "id": "GZ1zo",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iVwQd",
+                  "name": "Outline layer 24",
+                  "width": "fill_container",
+                  "height": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    1.1117714323462176,
+                    0.05111126056639792,
+                    0,
+                    2.948888739433602
+                  ],
+                  "children": [
+                    {
+                      "id": "sbD34",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Linked full-message outline",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width",
+                      "fill": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NKjhh",
+                  "name": "Full message foreground",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": 1.5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sPPAA",
+                      "name": "Full message",
+                      "context": "Complete message including channel/sender; one continuous wrapping text source.",
+                      "reusable": true,
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "[世界] FOMO價值投資者: 我會笑死，哪有每次買都被狙擊的，哈哈哈哈哈",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.48
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "njYl2",
+                  "layoutPosition": "absolute",
+                  "x": 1.5,
+                  "y": 1.5,
+                  "name": "Channel color overlay",
+                  "context": "Colored overlay for the first-line prefix; keep this prefix identical to the start of Full message.",
+                  "reusable": true,
+                  "fill": "#8DF5FF",
+                  "content": "[世界] FOMO價值投資者:",
+                  "lineHeight": 1.4166666666666667,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.48
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lIpLK",
+          "x": 480,
+          "y": 334,
+          "name": "Hub/Chat/Stack",
+          "context": "Figma 113:3582",
+          "reusable": true,
+          "width": 430,
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            0,
+            16
+          ],
+          "children": [
+            {
+              "id": "IFPvR",
+              "type": "ref",
+              "ref": "WtOGb",
+              "name": "Guild message"
+            },
+            {
+              "id": "bxGVb",
+              "type": "ref",
+              "ref": "g3Ruw",
+              "name": "Direct message"
+            },
+            {
+              "id": "RsTvA",
+              "type": "ref",
+              "ref": "zy4VC",
+              "name": "World message",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "f354F",
+          "x": 48,
+          "y": 174,
+          "name": "01 / 商會訊息",
+          "fill": "#ABB8C8",
+          "content": "01 / 商會訊息",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "xM80H",
+          "x": 480,
+          "y": 174,
+          "name": "02 / 私訊訊息",
+          "fill": "#ABB8C8",
+          "content": "02 / 私訊訊息",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "bNFcd",
+          "x": 48,
+          "y": 294,
+          "name": "03 / 世界訊息",
+          "fill": "#ABB8C8",
+          "content": "03 / 世界訊息",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "qnnCp",
+          "x": 480,
+          "y": 294,
+          "name": "04 / 聊天列表 · 430 × 128",
+          "fill": "#ABB8C8",
+          "content": "04 / 聊天列表 · 430 × 128",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "NqlgA",
+          "x": 48,
+          "y": 500,
+          "name": "保留原稿三則訊息與世界雙行內容；文字保持可編輯。",
+          "fill": "#ABB8C8",
+          "content": "整則訊息共用換行寬度；保留頻道色與 1.5px 黑色外框。",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ],
+  "fileToken": "2ec5a894-876b-4c9a-b558-22932d4e7d30"
+}

@@ -1,0 +1,118 @@
+{
+  "library": "hub-chat.lib.pen",
+  "role": "visual-reference",
+  "source": "https://www.figma.com/design/G5qDSKMMzOrJNd3HTv8hai/Untitled?node-id=113-3581",
+  "splitOn": "2026-09-25",
+  "entryComponentId": "lIpLK",
+  "components": [
+    {
+      "name": "Hub/Chat/Guild",
+      "id": "WtOGb",
+      "size": [
+        302,
+        33
+      ],
+      "figmaNodeIds": [
+        "113:3583"
+      ]
+    },
+    {
+      "name": "Hub/Chat/Direct",
+      "id": "g3Ruw",
+      "size": [
+        227,
+        33
+      ],
+      "figmaNodeIds": [
+        "113:3585"
+      ]
+    },
+    {
+      "name": "Hub/Chat/World",
+      "id": "zy4VC",
+      "size": [
+        398,
+        50
+      ],
+      "figmaNodeIds": [
+        "113:3587"
+      ]
+    },
+    {
+      "name": "Hub/Chat/Stack",
+      "id": "lIpLK",
+      "size": [
+        430,
+        128
+      ],
+      "figmaNodeIds": [
+        "113:3582"
+      ]
+    }
+  ],
+  "libraryDependencies": [],
+  "verification": {
+    "componentCount": 10,
+    "danglingReferences": [],
+    "importIntoComposition": "passed",
+    "visualPreview": "passed",
+    "layoutClippingCheck": "passed",
+    "publicComponentCount": 4,
+    "internalTextSourceCount": 6,
+    "savedLibraryImportedOutlineInstances": 72
+  },
+  "assets": [],
+  "internalTextSources": [
+    {
+      "id": "M0KAX",
+      "channel": "Guild",
+      "part": "Channel color overlay"
+    },
+    {
+      "id": "m1gwq",
+      "channel": "Guild",
+      "part": "Full message"
+    },
+    {
+      "id": "d70sMi",
+      "channel": "Direct",
+      "part": "Channel color overlay"
+    },
+    {
+      "id": "aRdPG",
+      "channel": "Direct",
+      "part": "Full message"
+    },
+    {
+      "id": "njYl2",
+      "channel": "World",
+      "part": "Channel color overlay"
+    },
+    {
+      "id": "sPPAA",
+      "channel": "World",
+      "part": "Full message"
+    }
+  ],
+  "textOutline": {
+    "sourceVerifiedOn": "2026-09-26",
+    "figmaTextNodeIds": [
+      "113:3584",
+      "113:3586",
+      "113:3588"
+    ],
+    "color": "#000000",
+    "radiusPx": 1.5,
+    "sourceAlignment": "OUTSIDE",
+    "sourceJoin": "ROUND",
+    "implementation": "24 linked black full-message instances per message, width synchronized with foreground",
+    "outlinedTextSources": 3,
+    "outlineInstances": 72
+  },
+  "responsiveText": {
+    "behavior": "Full message wraps continuously across the message content width; continuation returns to the left edge",
+    "fixedContinuationRemoved": "SXN22",
+    "height": "fit_content",
+    "prefixColor": "first-line color overlay; prefix must fit first line"
+  }
+}

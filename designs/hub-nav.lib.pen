@@ -1,0 +1,902 @@
+{
+  "version": "2.18",
+  "children": [
+    {
+      "type": "frame",
+      "id": "J125lB",
+      "x": 0,
+      "y": 0,
+      "name": "AI Tycoon · Hub 導覽列元件庫",
+      "width": 700,
+      "height": 560,
+      "fill": "#22282F",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "Kqf1h",
+          "x": 48,
+          "y": 36,
+          "name": "專案名稱",
+          "fill": "#92ABC5",
+          "content": "AI TYCOON  /  COMPONENT LIBRARY",
+          "fontFamily": "Inter",
+          "fontSize": 12,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "E1yhsV",
+          "x": 48,
+          "y": 66,
+          "name": "元件庫標題",
+          "fill": "#F5F8FC",
+          "content": "Hub 導覽列元件庫",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 32,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "x7Hs5K",
+          "x": 48,
+          "y": 120,
+          "name": "來源摘要",
+          "fill": "#ABB8C8",
+          "content": "城市 / 事件 / 商會 / 排行 / 資產 · 5 個主元件 · 獨立維護",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "k0x0N3",
+          "x": 48,
+          "y": 220,
+          "name": "Hub/Icon/City",
+          "context": "Popboard v1 png/city.png; user supplied asset",
+          "reusable": true,
+          "width": 56,
+          "height": 56,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "R3tPOn",
+              "x": 0,
+              "y": 0,
+              "name": "City artwork",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "hub-nav-assets/city.png",
+                "mode": "fit"
+              },
+              "width": 56,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gbZkt",
+          "x": 240,
+          "y": 238,
+          "name": "Hub/Nav/Label",
+          "reusable": true,
+          "width": 67,
+          "height": 20,
+          "layout": "none",
+          "children": [
+            {
+              "id": "FJDYx",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 1",
+              "x": 3,
+              "y": 1.5,
+              "fill": "#000000"
+            },
+            {
+              "id": "sNzFI",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 2",
+              "x": 2.9488887394336025,
+              "y": 1.888228567653781,
+              "fill": "#000000"
+            },
+            {
+              "id": "Z6lKfa",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 3",
+              "x": 2.799038105676658,
+              "y": 2.25,
+              "fill": "#000000"
+            },
+            {
+              "id": "WnZZ2",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 4",
+              "x": 2.5606601717798214,
+              "y": 2.560660171779821,
+              "fill": "#000000"
+            },
+            {
+              "id": "ruzYO",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 5",
+              "x": 2.25,
+              "y": 2.799038105676658,
+              "fill": "#000000"
+            },
+            {
+              "id": "OLYiv",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 6",
+              "x": 1.888228567653781,
+              "y": 2.9488887394336025,
+              "fill": "#000000"
+            },
+            {
+              "id": "f2NsDn",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 7",
+              "x": 1.5,
+              "y": 3,
+              "fill": "#000000"
+            },
+            {
+              "id": "TL2S3",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 8",
+              "x": 1.1117714323462191,
+              "y": 2.9488887394336025,
+              "fill": "#000000"
+            },
+            {
+              "id": "dscrW",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 9",
+              "x": 0.7500000000000003,
+              "y": 2.799038105676658,
+              "fill": "#000000"
+            },
+            {
+              "id": "RKkJy",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 10",
+              "x": 0.4393398282201788,
+              "y": 2.5606601717798214,
+              "fill": "#000000"
+            },
+            {
+              "id": "XVnQO",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 11",
+              "x": 0.200961894323342,
+              "y": 2.25,
+              "fill": "#000000"
+            },
+            {
+              "id": "HCDDn",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 12",
+              "x": 0.0511112605663977,
+              "y": 1.8882285676537816,
+              "fill": "#000000"
+            },
+            {
+              "id": "tbZZn",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 13",
+              "x": 0,
+              "y": 1.5000000000000002,
+              "fill": "#000000"
+            },
+            {
+              "id": "YYfMo",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 14",
+              "x": 0.051111260566397476,
+              "y": 1.111771432346219,
+              "fill": "#000000"
+            },
+            {
+              "id": "I2qGR",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 15",
+              "x": 0.20096189432334177,
+              "y": 0.7500000000000004,
+              "fill": "#000000"
+            },
+            {
+              "id": "QcuIZ",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 16",
+              "x": 0.43933982822017814,
+              "y": 0.43933982822017925,
+              "fill": "#000000"
+            },
+            {
+              "id": "nfvuh",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 17",
+              "x": 0.7499999999999993,
+              "y": 0.20096189432334222,
+              "fill": "#000000"
+            },
+            {
+              "id": "A80sBp",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 18",
+              "x": 1.1117714323462191,
+              "y": 0.051111260566397476,
+              "fill": "#000000"
+            },
+            {
+              "id": "DGJr4",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 19",
+              "x": 1.4999999999999998,
+              "y": 0,
+              "fill": "#000000"
+            },
+            {
+              "id": "qQEdp",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 20",
+              "x": 1.8882285676537804,
+              "y": 0.051111260566397476,
+              "fill": "#000000"
+            },
+            {
+              "id": "mv042",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 21",
+              "x": 2.25,
+              "y": 0.200961894323342,
+              "fill": "#000000"
+            },
+            {
+              "id": "aKmgT",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 22",
+              "x": 2.560660171779821,
+              "y": 0.4393398282201786,
+              "fill": "#000000"
+            },
+            {
+              "id": "B8UHs",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 23",
+              "x": 2.7990381056766576,
+              "y": 0.7499999999999993,
+              "fill": "#000000"
+            },
+            {
+              "id": "l3FPdS",
+              "type": "ref",
+              "ref": "eKDvm",
+              "name": "Outline 24",
+              "x": 2.948888739433602,
+              "y": 1.1117714323462176,
+              "fill": "#000000"
+            },
+            {
+              "type": "text",
+              "id": "eKDvm",
+              "x": 1.5,
+              "y": 1.5,
+              "name": "Hub/Nav/Glyph",
+              "reusable": true,
+              "fill": "#C1DFE1",
+              "textGrowth": "fixed-width",
+              "width": 64,
+              "content": "城市",
+              "lineHeight": 1.2142857142857142,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 14,
+              "fontWeight": "900"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GdqgX",
+          "x": 432,
+          "y": 216,
+          "name": "Hub/Nav/Item",
+          "context": "Figma 113:3590; repeated five times",
+          "reusable": true,
+          "width": 67,
+          "height": 64,
+          "layout": "none",
+          "children": [
+            {
+              "id": "ZgOf7",
+              "type": "ref",
+              "ref": "k0x0N3",
+              "name": "Icon",
+              "x": 5.5,
+              "y": 0
+            },
+            {
+              "id": "Ig8UG",
+              "type": "ref",
+              "ref": "gbZkt",
+              "name": "Label",
+              "x": 0,
+              "y": 44
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "W42XvN",
+          "x": 48,
+          "y": 390,
+          "name": "Hub/Nav/Bar",
+          "context": "User specified order: 城市(city), 事件(event), 商會(shield), 排行(ranking), 資產(wallet-color)",
+          "reusable": true,
+          "width": 430,
+          "gap": 8,
+          "padding": [
+            0,
+            16,
+            20,
+            16
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "p521oA",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Nav / 城市",
+              "context": "User specified city.png",
+              "descendants": {
+                "ZgOf7/R3tPOn": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "hub-nav-assets/city.png",
+                    "mode": "fit"
+                  }
+                },
+                "Ig8UG/FJDYx": {
+                  "content": "城市"
+                },
+                "Ig8UG/sNzFI": {
+                  "content": "城市"
+                },
+                "Ig8UG/Z6lKfa": {
+                  "content": "城市"
+                },
+                "Ig8UG/WnZZ2": {
+                  "content": "城市"
+                },
+                "Ig8UG/ruzYO": {
+                  "content": "城市"
+                },
+                "Ig8UG/OLYiv": {
+                  "content": "城市"
+                },
+                "Ig8UG/f2NsDn": {
+                  "content": "城市"
+                },
+                "Ig8UG/TL2S3": {
+                  "content": "城市"
+                },
+                "Ig8UG/dscrW": {
+                  "content": "城市"
+                },
+                "Ig8UG/RKkJy": {
+                  "content": "城市"
+                },
+                "Ig8UG/XVnQO": {
+                  "content": "城市"
+                },
+                "Ig8UG/HCDDn": {
+                  "content": "城市"
+                },
+                "Ig8UG/tbZZn": {
+                  "content": "城市"
+                },
+                "Ig8UG/YYfMo": {
+                  "content": "城市"
+                },
+                "Ig8UG/I2qGR": {
+                  "content": "城市"
+                },
+                "Ig8UG/QcuIZ": {
+                  "content": "城市"
+                },
+                "Ig8UG/nfvuh": {
+                  "content": "城市"
+                },
+                "Ig8UG/A80sBp": {
+                  "content": "城市"
+                },
+                "Ig8UG/DGJr4": {
+                  "content": "城市"
+                },
+                "Ig8UG/qQEdp": {
+                  "content": "城市"
+                },
+                "Ig8UG/mv042": {
+                  "content": "城市"
+                },
+                "Ig8UG/aKmgT": {
+                  "content": "城市"
+                },
+                "Ig8UG/B8UHs": {
+                  "content": "城市"
+                },
+                "Ig8UG/l3FPdS": {
+                  "content": "城市"
+                },
+                "Ig8UG/eKDvm": {
+                  "content": "城市"
+                }
+              }
+            },
+            {
+              "id": "f8A04",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Nav / 事件",
+              "context": "User specified event.png",
+              "descendants": {
+                "ZgOf7/R3tPOn": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "hub-nav-assets/event.png",
+                    "mode": "fit"
+                  }
+                },
+                "Ig8UG/FJDYx": {
+                  "content": "事件"
+                },
+                "Ig8UG/sNzFI": {
+                  "content": "事件"
+                },
+                "Ig8UG/Z6lKfa": {
+                  "content": "事件"
+                },
+                "Ig8UG/WnZZ2": {
+                  "content": "事件"
+                },
+                "Ig8UG/ruzYO": {
+                  "content": "事件"
+                },
+                "Ig8UG/OLYiv": {
+                  "content": "事件"
+                },
+                "Ig8UG/f2NsDn": {
+                  "content": "事件"
+                },
+                "Ig8UG/TL2S3": {
+                  "content": "事件"
+                },
+                "Ig8UG/dscrW": {
+                  "content": "事件"
+                },
+                "Ig8UG/RKkJy": {
+                  "content": "事件"
+                },
+                "Ig8UG/XVnQO": {
+                  "content": "事件"
+                },
+                "Ig8UG/HCDDn": {
+                  "content": "事件"
+                },
+                "Ig8UG/tbZZn": {
+                  "content": "事件"
+                },
+                "Ig8UG/YYfMo": {
+                  "content": "事件"
+                },
+                "Ig8UG/I2qGR": {
+                  "content": "事件"
+                },
+                "Ig8UG/QcuIZ": {
+                  "content": "事件"
+                },
+                "Ig8UG/nfvuh": {
+                  "content": "事件"
+                },
+                "Ig8UG/A80sBp": {
+                  "content": "事件"
+                },
+                "Ig8UG/DGJr4": {
+                  "content": "事件"
+                },
+                "Ig8UG/qQEdp": {
+                  "content": "事件"
+                },
+                "Ig8UG/mv042": {
+                  "content": "事件"
+                },
+                "Ig8UG/aKmgT": {
+                  "content": "事件"
+                },
+                "Ig8UG/B8UHs": {
+                  "content": "事件"
+                },
+                "Ig8UG/l3FPdS": {
+                  "content": "事件"
+                },
+                "Ig8UG/eKDvm": {
+                  "content": "事件"
+                }
+              }
+            },
+            {
+              "id": "KfWLd",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Nav / 商會",
+              "context": "User specified shield.png",
+              "descendants": {
+                "ZgOf7/R3tPOn": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "hub-nav-assets/shield.png",
+                    "mode": "fit"
+                  }
+                },
+                "Ig8UG/FJDYx": {
+                  "content": "商會"
+                },
+                "Ig8UG/sNzFI": {
+                  "content": "商會"
+                },
+                "Ig8UG/Z6lKfa": {
+                  "content": "商會"
+                },
+                "Ig8UG/WnZZ2": {
+                  "content": "商會"
+                },
+                "Ig8UG/ruzYO": {
+                  "content": "商會"
+                },
+                "Ig8UG/OLYiv": {
+                  "content": "商會"
+                },
+                "Ig8UG/f2NsDn": {
+                  "content": "商會"
+                },
+                "Ig8UG/TL2S3": {
+                  "content": "商會"
+                },
+                "Ig8UG/dscrW": {
+                  "content": "商會"
+                },
+                "Ig8UG/RKkJy": {
+                  "content": "商會"
+                },
+                "Ig8UG/XVnQO": {
+                  "content": "商會"
+                },
+                "Ig8UG/HCDDn": {
+                  "content": "商會"
+                },
+                "Ig8UG/tbZZn": {
+                  "content": "商會"
+                },
+                "Ig8UG/YYfMo": {
+                  "content": "商會"
+                },
+                "Ig8UG/I2qGR": {
+                  "content": "商會"
+                },
+                "Ig8UG/QcuIZ": {
+                  "content": "商會"
+                },
+                "Ig8UG/nfvuh": {
+                  "content": "商會"
+                },
+                "Ig8UG/A80sBp": {
+                  "content": "商會"
+                },
+                "Ig8UG/DGJr4": {
+                  "content": "商會"
+                },
+                "Ig8UG/qQEdp": {
+                  "content": "商會"
+                },
+                "Ig8UG/mv042": {
+                  "content": "商會"
+                },
+                "Ig8UG/aKmgT": {
+                  "content": "商會"
+                },
+                "Ig8UG/B8UHs": {
+                  "content": "商會"
+                },
+                "Ig8UG/l3FPdS": {
+                  "content": "商會"
+                },
+                "Ig8UG/eKDvm": {
+                  "content": "商會"
+                }
+              }
+            },
+            {
+              "id": "N0uoQ",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Nav / 排行",
+              "context": "User specified ranking.png",
+              "descendants": {
+                "ZgOf7/R3tPOn": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "hub-nav-assets/ranking.png",
+                    "mode": "fit"
+                  }
+                },
+                "Ig8UG/FJDYx": {
+                  "content": "排行"
+                },
+                "Ig8UG/sNzFI": {
+                  "content": "排行"
+                },
+                "Ig8UG/Z6lKfa": {
+                  "content": "排行"
+                },
+                "Ig8UG/WnZZ2": {
+                  "content": "排行"
+                },
+                "Ig8UG/ruzYO": {
+                  "content": "排行"
+                },
+                "Ig8UG/OLYiv": {
+                  "content": "排行"
+                },
+                "Ig8UG/f2NsDn": {
+                  "content": "排行"
+                },
+                "Ig8UG/TL2S3": {
+                  "content": "排行"
+                },
+                "Ig8UG/dscrW": {
+                  "content": "排行"
+                },
+                "Ig8UG/RKkJy": {
+                  "content": "排行"
+                },
+                "Ig8UG/XVnQO": {
+                  "content": "排行"
+                },
+                "Ig8UG/HCDDn": {
+                  "content": "排行"
+                },
+                "Ig8UG/tbZZn": {
+                  "content": "排行"
+                },
+                "Ig8UG/YYfMo": {
+                  "content": "排行"
+                },
+                "Ig8UG/I2qGR": {
+                  "content": "排行"
+                },
+                "Ig8UG/QcuIZ": {
+                  "content": "排行"
+                },
+                "Ig8UG/nfvuh": {
+                  "content": "排行"
+                },
+                "Ig8UG/A80sBp": {
+                  "content": "排行"
+                },
+                "Ig8UG/DGJr4": {
+                  "content": "排行"
+                },
+                "Ig8UG/qQEdp": {
+                  "content": "排行"
+                },
+                "Ig8UG/mv042": {
+                  "content": "排行"
+                },
+                "Ig8UG/aKmgT": {
+                  "content": "排行"
+                },
+                "Ig8UG/B8UHs": {
+                  "content": "排行"
+                },
+                "Ig8UG/l3FPdS": {
+                  "content": "排行"
+                },
+                "Ig8UG/eKDvm": {
+                  "content": "排行"
+                }
+              }
+            },
+            {
+              "id": "i0uAR",
+              "type": "ref",
+              "ref": "GdqgX",
+              "name": "Nav / 資產",
+              "context": "User specified wallet-color.png",
+              "descendants": {
+                "ZgOf7/R3tPOn": {
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "hub-nav-assets/wallet-color.png",
+                    "mode": "fit"
+                  }
+                },
+                "Ig8UG/FJDYx": {
+                  "content": "資產"
+                },
+                "Ig8UG/sNzFI": {
+                  "content": "資產"
+                },
+                "Ig8UG/Z6lKfa": {
+                  "content": "資產"
+                },
+                "Ig8UG/WnZZ2": {
+                  "content": "資產"
+                },
+                "Ig8UG/ruzYO": {
+                  "content": "資產"
+                },
+                "Ig8UG/OLYiv": {
+                  "content": "資產"
+                },
+                "Ig8UG/f2NsDn": {
+                  "content": "資產"
+                },
+                "Ig8UG/TL2S3": {
+                  "content": "資產"
+                },
+                "Ig8UG/dscrW": {
+                  "content": "資產"
+                },
+                "Ig8UG/RKkJy": {
+                  "content": "資產"
+                },
+                "Ig8UG/XVnQO": {
+                  "content": "資產"
+                },
+                "Ig8UG/HCDDn": {
+                  "content": "資產"
+                },
+                "Ig8UG/tbZZn": {
+                  "content": "資產"
+                },
+                "Ig8UG/YYfMo": {
+                  "content": "資產"
+                },
+                "Ig8UG/I2qGR": {
+                  "content": "資產"
+                },
+                "Ig8UG/QcuIZ": {
+                  "content": "資產"
+                },
+                "Ig8UG/nfvuh": {
+                  "content": "資產"
+                },
+                "Ig8UG/A80sBp": {
+                  "content": "資產"
+                },
+                "Ig8UG/DGJr4": {
+                  "content": "資產"
+                },
+                "Ig8UG/qQEdp": {
+                  "content": "資產"
+                },
+                "Ig8UG/mv042": {
+                  "content": "資產"
+                },
+                "Ig8UG/aKmgT": {
+                  "content": "資產"
+                },
+                "Ig8UG/B8UHs": {
+                  "content": "資產"
+                },
+                "Ig8UG/l3FPdS": {
+                  "content": "資產"
+                },
+                "Ig8UG/eKDvm": {
+                  "content": "資產"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "moigM",
+          "x": 48,
+          "y": 176,
+          "name": "01 / 圖示",
+          "fill": "#ABB8C8",
+          "content": "01 / 圖示",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "EWf2v",
+          "x": 240,
+          "y": 176,
+          "name": "02 / 文字與外框",
+          "fill": "#ABB8C8",
+          "content": "02 / 文字與外框",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "G6OtWj",
+          "x": 432,
+          "y": 176,
+          "name": "03 / 導覽項目",
+          "fill": "#ABB8C8",
+          "content": "03 / 導覽項目",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "BCGKS",
+          "x": 48,
+          "y": 340,
+          "name": "04 / 導覽列 · 430 × 84",
+          "fill": "#ABB8C8",
+          "content": "04 / 導覽列 · 430 × 84",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "KfbXD",
+          "x": 48,
+          "y": 498,
+          "name": "56px 圖示 · 1.5px 黑色文字外框 · 五個連動實例",
+          "fill": "#ABB8C8",
+          "content": "56px 圖示 · 1.5px 黑色文字外框 · 五個連動實例",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ],
+  "fileToken": "2ec5a894-876b-4c9a-b558-22932d4e7d30"
+}
