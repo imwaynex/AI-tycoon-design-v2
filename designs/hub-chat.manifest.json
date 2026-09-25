@@ -52,11 +52,66 @@
   ],
   "libraryDependencies": [],
   "verification": {
-    "componentCount": 4,
+    "componentCount": 11,
     "danglingReferences": [],
     "importIntoComposition": "passed",
     "visualPreview": "passed",
-    "layoutClippingCheck": "passed"
+    "layoutClippingCheck": "passed",
+    "publicComponentCount": 4,
+    "internalTextSourceCount": 7,
+    "savedLibraryImportedOutlineInstances": 168
   },
-  "assets": []
+  "assets": [],
+  "internalTextSources": [
+    {
+      "id": "M0KAX",
+      "channel": "Guild",
+      "part": "Channel and sender"
+    },
+    {
+      "id": "m1gwq",
+      "channel": "Guild",
+      "part": "Message"
+    },
+    {
+      "id": "d70sMi",
+      "channel": "Direct",
+      "part": "Channel and sender"
+    },
+    {
+      "id": "aRdPG",
+      "channel": "Direct",
+      "part": "Message"
+    },
+    {
+      "id": "njYl2",
+      "channel": "World",
+      "part": "Channel and sender"
+    },
+    {
+      "id": "sPPAA",
+      "channel": "World",
+      "part": "Message"
+    },
+    {
+      "id": "SXN22",
+      "channel": "World",
+      "part": "Message continuation"
+    }
+  ],
+  "textOutline": {
+    "sourceVerifiedOn": "2026-09-26",
+    "figmaTextNodeIds": [
+      "113:3584",
+      "113:3586",
+      "113:3588"
+    ],
+    "color": "#000000",
+    "radiusPx": 1.5,
+    "sourceAlignment": "OUTSIDE",
+    "sourceJoin": "ROUND",
+    "implementation": "24 linked black text instances around each editable foreground; circular-offset approximation",
+    "outlinedTextSources": 7,
+    "outlineInstances": 168
+  }
 }

@@ -44,7 +44,7 @@
           "y": 120,
           "name": "來源摘要",
           "fill": "#ABB8C8",
-          "content": "商會 / 私訊 / 世界 · 4 個主元件 · 不依賴導覽列或圖示",
+          "content": "商會 / 私訊 / 世界 · 4 個主元件 · 7 個文字來源",
           "fontFamily": "Noto Sans TC",
           "fontSize": 13,
           "fontWeight": "normal"
@@ -66,40 +66,544 @@
             "radius": 4
           },
           "layout": "vertical",
+          "gap": -3,
           "padding": [
-            8,
-            16
+            6.5,
+            14.5
           ],
           "children": [
             {
               "type": "frame",
               "id": "x6syZA",
               "name": "First line",
-              "height": 17,
+              "height": 20,
+              "gap": -3,
               "children": [
                 {
-                  "type": "text",
-                  "id": "M0KAX",
-                  "name": "Channel and sender",
-                  "fill": "#8DA0FF",
-                  "content": "[商會] FOMO價值投資者:",
-                  "lineHeight": 1.4166666666666667,
-                  "fontFamily": "Noto Sans TC",
-                  "fontSize": 12,
-                  "fontWeight": "600",
-                  "letterSpacing": 0.48
+                  "type": "frame",
+                  "id": "YDdB4",
+                  "name": "Channel and sender / outlined",
+                  "height": 20,
+                  "padding": 1.5,
+                  "children": [
+                    {
+                      "id": "QFn6v",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 01",
+                      "layoutPosition": "absolute",
+                      "x": 3,
+                      "y": 1.5,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "G1LB4i",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 02",
+                      "layoutPosition": "absolute",
+                      "x": 2.9488887394336025,
+                      "y": 1.888228567653781,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "ivEdf",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 03",
+                      "layoutPosition": "absolute",
+                      "x": 2.799038105676658,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "I3Vx4",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 04",
+                      "layoutPosition": "absolute",
+                      "x": 2.5606601717798214,
+                      "y": 2.560660171779821,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "RVWOv",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 05",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "tYMfx",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 06",
+                      "layoutPosition": "absolute",
+                      "x": 1.888228567653781,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "vlBQ4",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 07",
+                      "layoutPosition": "absolute",
+                      "x": 1.5,
+                      "y": 3,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "qeL1w",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 08",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "N0QmIe",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 09",
+                      "layoutPosition": "absolute",
+                      "x": 0.7500000000000003,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Z1DgH2",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 10",
+                      "layoutPosition": "absolute",
+                      "x": 0.4393398282201788,
+                      "y": 2.5606601717798214,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "d0IRZX",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 11",
+                      "layoutPosition": "absolute",
+                      "x": 0.200961894323342,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "G7CyA0",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 12",
+                      "layoutPosition": "absolute",
+                      "x": 0.0511112605663977,
+                      "y": 1.8882285676537816,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "xgBWN",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 13",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 1.5000000000000002,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "QBzP4",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 14",
+                      "layoutPosition": "absolute",
+                      "x": 0.051111260566397476,
+                      "y": 1.111771432346219,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "YyMUE",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 15",
+                      "layoutPosition": "absolute",
+                      "x": 0.20096189432334177,
+                      "y": 0.7500000000000004,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "yikAM",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 16",
+                      "layoutPosition": "absolute",
+                      "x": 0.43933982822017814,
+                      "y": 0.43933982822017925,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "JUv4l",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 17",
+                      "layoutPosition": "absolute",
+                      "x": 0.7499999999999993,
+                      "y": 0.20096189432334222,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "GvUKE",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 18",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "LpFys",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 19",
+                      "layoutPosition": "absolute",
+                      "x": 1.4999999999999998,
+                      "y": 0,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "M60jm",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 20",
+                      "layoutPosition": "absolute",
+                      "x": 1.8882285676537804,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "ahNlL",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 21",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 0.200961894323342,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "AtRtq",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 22",
+                      "layoutPosition": "absolute",
+                      "x": 2.560660171779821,
+                      "y": 0.4393398282201786,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "OXxr7",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 23",
+                      "layoutPosition": "absolute",
+                      "x": 2.7990381056766576,
+                      "y": 0.7499999999999993,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "O733kp",
+                      "type": "ref",
+                      "ref": "M0KAX",
+                      "name": "Outline 24",
+                      "layoutPosition": "absolute",
+                      "x": 2.948888739433602,
+                      "y": 1.1117714323462176,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M0KAX",
+                      "name": "Channel and sender",
+                      "context": "Editable foreground; 24 linked black outline instances at radius 1.5px",
+                      "reusable": true,
+                      "fill": "#8DA0FF",
+                      "content": "[商會] FOMO價值投資者:",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.48
+                    }
+                  ]
                 },
                 {
-                  "type": "text",
-                  "id": "m1gwq",
-                  "name": "Message",
-                  "fill": "#FFFFFF",
-                  "content": " 哪有每次買都被狙擊的",
-                  "lineHeight": 1.4166666666666667,
-                  "fontFamily": "Noto Sans TC",
-                  "fontSize": 12,
-                  "fontWeight": "600",
-                  "letterSpacing": 0.48
+                  "type": "frame",
+                  "id": "bCE1p",
+                  "name": "Message / outlined",
+                  "height": 20,
+                  "padding": 1.5,
+                  "children": [
+                    {
+                      "id": "NHICx",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 01",
+                      "layoutPosition": "absolute",
+                      "x": 3,
+                      "y": 1.5,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Rcasz",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 02",
+                      "layoutPosition": "absolute",
+                      "x": 2.9488887394336025,
+                      "y": 1.888228567653781,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "O6Vda",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 03",
+                      "layoutPosition": "absolute",
+                      "x": 2.799038105676658,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "PZjUD",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 04",
+                      "layoutPosition": "absolute",
+                      "x": 2.5606601717798214,
+                      "y": 2.560660171779821,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "n6hXTa",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 05",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "PJ4uK",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 06",
+                      "layoutPosition": "absolute",
+                      "x": 1.888228567653781,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "SMP8l",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 07",
+                      "layoutPosition": "absolute",
+                      "x": 1.5,
+                      "y": 3,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "qa2sg",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 08",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "PRZ7l",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 09",
+                      "layoutPosition": "absolute",
+                      "x": 0.7500000000000003,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "is42x",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 10",
+                      "layoutPosition": "absolute",
+                      "x": 0.4393398282201788,
+                      "y": 2.5606601717798214,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "M5oNn2",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 11",
+                      "layoutPosition": "absolute",
+                      "x": 0.200961894323342,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "ypCl0",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 12",
+                      "layoutPosition": "absolute",
+                      "x": 0.0511112605663977,
+                      "y": 1.8882285676537816,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "wlouG",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 13",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 1.5000000000000002,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "WELMs",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 14",
+                      "layoutPosition": "absolute",
+                      "x": 0.051111260566397476,
+                      "y": 1.111771432346219,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "nOwta",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 15",
+                      "layoutPosition": "absolute",
+                      "x": 0.20096189432334177,
+                      "y": 0.7500000000000004,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "dYeZ9",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 16",
+                      "layoutPosition": "absolute",
+                      "x": 0.43933982822017814,
+                      "y": 0.43933982822017925,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "A7h3fb",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 17",
+                      "layoutPosition": "absolute",
+                      "x": 0.7499999999999993,
+                      "y": 0.20096189432334222,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "VMn9M",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 18",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "gf7QL",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 19",
+                      "layoutPosition": "absolute",
+                      "x": 1.4999999999999998,
+                      "y": 0,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "d8NGMK",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 20",
+                      "layoutPosition": "absolute",
+                      "x": 1.8882285676537804,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "ubc0l",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 21",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 0.200961894323342,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "s6oxE",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 22",
+                      "layoutPosition": "absolute",
+                      "x": 2.560660171779821,
+                      "y": 0.4393398282201786,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "FcGih",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 23",
+                      "layoutPosition": "absolute",
+                      "x": 2.7990381056766576,
+                      "y": 0.7499999999999993,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "XsBhi",
+                      "type": "ref",
+                      "ref": "m1gwq",
+                      "name": "Outline 24",
+                      "layoutPosition": "absolute",
+                      "x": 2.948888739433602,
+                      "y": 1.1117714323462176,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m1gwq",
+                      "name": "Message",
+                      "context": "Editable foreground; 24 linked black outline instances at radius 1.5px",
+                      "reusable": true,
+                      "fill": "#FFFFFF",
+                      "content": " 哪有每次買都被狙擊的",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.48
+                    }
+                  ]
                 }
               ]
             }
@@ -122,40 +626,544 @@
             "radius": 4
           },
           "layout": "vertical",
+          "gap": -3,
           "padding": [
-            8,
-            16
+            6.5,
+            14.5
           ],
           "children": [
             {
               "type": "frame",
               "id": "d0HKV",
               "name": "First line",
-              "height": 17,
+              "height": 20,
+              "gap": -3,
               "children": [
                 {
-                  "type": "text",
-                  "id": "d70sMi",
-                  "name": "Channel and sender",
-                  "fill": "#F48DFF",
-                  "content": "[私訊] FOMO價值投資者:",
-                  "lineHeight": 1.4166666666666667,
-                  "fontFamily": "Noto Sans TC",
-                  "fontSize": 12,
-                  "fontWeight": "600",
-                  "letterSpacing": 0.48
+                  "type": "frame",
+                  "id": "y4phn",
+                  "name": "Channel and sender / outlined",
+                  "height": 20,
+                  "padding": 1.5,
+                  "children": [
+                    {
+                      "id": "OUp40",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 01",
+                      "layoutPosition": "absolute",
+                      "x": 3,
+                      "y": 1.5,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "L7QVh",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 02",
+                      "layoutPosition": "absolute",
+                      "x": 2.9488887394336025,
+                      "y": 1.888228567653781,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "qU8A7",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 03",
+                      "layoutPosition": "absolute",
+                      "x": 2.799038105676658,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "OsrYP",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 04",
+                      "layoutPosition": "absolute",
+                      "x": 2.5606601717798214,
+                      "y": 2.560660171779821,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "t0xSI",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 05",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "avZFO",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 06",
+                      "layoutPosition": "absolute",
+                      "x": 1.888228567653781,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "L0kxGl",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 07",
+                      "layoutPosition": "absolute",
+                      "x": 1.5,
+                      "y": 3,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "SATMe",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 08",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "gBqoV",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 09",
+                      "layoutPosition": "absolute",
+                      "x": 0.7500000000000003,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "BxChl",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 10",
+                      "layoutPosition": "absolute",
+                      "x": 0.4393398282201788,
+                      "y": 2.5606601717798214,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "sMjBC",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 11",
+                      "layoutPosition": "absolute",
+                      "x": 0.200961894323342,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "KhZ0g",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 12",
+                      "layoutPosition": "absolute",
+                      "x": 0.0511112605663977,
+                      "y": 1.8882285676537816,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "J4eRHQ",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 13",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 1.5000000000000002,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "NDxPZ",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 14",
+                      "layoutPosition": "absolute",
+                      "x": 0.051111260566397476,
+                      "y": 1.111771432346219,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "dcU3u",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 15",
+                      "layoutPosition": "absolute",
+                      "x": 0.20096189432334177,
+                      "y": 0.7500000000000004,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "eJo2W",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 16",
+                      "layoutPosition": "absolute",
+                      "x": 0.43933982822017814,
+                      "y": 0.43933982822017925,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "ZThgG",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 17",
+                      "layoutPosition": "absolute",
+                      "x": 0.7499999999999993,
+                      "y": 0.20096189432334222,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "UEDOa",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 18",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "F1SZKi",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 19",
+                      "layoutPosition": "absolute",
+                      "x": 1.4999999999999998,
+                      "y": 0,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "fIk9L",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 20",
+                      "layoutPosition": "absolute",
+                      "x": 1.8882285676537804,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "XJHBx",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 21",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 0.200961894323342,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "acizS",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 22",
+                      "layoutPosition": "absolute",
+                      "x": 2.560660171779821,
+                      "y": 0.4393398282201786,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "o8yJSV",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 23",
+                      "layoutPosition": "absolute",
+                      "x": 2.7990381056766576,
+                      "y": 0.7499999999999993,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "tQzui",
+                      "type": "ref",
+                      "ref": "d70sMi",
+                      "name": "Outline 24",
+                      "layoutPosition": "absolute",
+                      "x": 2.948888739433602,
+                      "y": 1.1117714323462176,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "text",
+                      "id": "d70sMi",
+                      "name": "Channel and sender",
+                      "context": "Editable foreground; 24 linked black outline instances at radius 1.5px",
+                      "reusable": true,
+                      "fill": "#F48DFF",
+                      "content": "[私訊] FOMO價值投資者:",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.48
+                    }
+                  ]
                 },
                 {
-                  "type": "text",
-                  "id": "aRdPG",
-                  "name": "Message",
-                  "fill": "#FFFFFF",
-                  "content": " 我會笑死",
-                  "lineHeight": 1.4166666666666667,
-                  "fontFamily": "Noto Sans TC",
-                  "fontSize": 12,
-                  "fontWeight": "600",
-                  "letterSpacing": 0.48
+                  "type": "frame",
+                  "id": "Bntgu",
+                  "name": "Message / outlined",
+                  "height": 20,
+                  "padding": 1.5,
+                  "children": [
+                    {
+                      "id": "PFhfK",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 01",
+                      "layoutPosition": "absolute",
+                      "x": 3,
+                      "y": 1.5,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "fJ6Ng",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 02",
+                      "layoutPosition": "absolute",
+                      "x": 2.9488887394336025,
+                      "y": 1.888228567653781,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "psYKh",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 03",
+                      "layoutPosition": "absolute",
+                      "x": 2.799038105676658,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "LTis5",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 04",
+                      "layoutPosition": "absolute",
+                      "x": 2.5606601717798214,
+                      "y": 2.560660171779821,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "T6UTIQ",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 05",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "ztSQF",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 06",
+                      "layoutPosition": "absolute",
+                      "x": 1.888228567653781,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "y9V1b",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 07",
+                      "layoutPosition": "absolute",
+                      "x": 1.5,
+                      "y": 3,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "TpVsx",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 08",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Q1TgDD",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 09",
+                      "layoutPosition": "absolute",
+                      "x": 0.7500000000000003,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "ozgAx",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 10",
+                      "layoutPosition": "absolute",
+                      "x": 0.4393398282201788,
+                      "y": 2.5606601717798214,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "iMBII",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 11",
+                      "layoutPosition": "absolute",
+                      "x": 0.200961894323342,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Zaw43",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 12",
+                      "layoutPosition": "absolute",
+                      "x": 0.0511112605663977,
+                      "y": 1.8882285676537816,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "o90DyK",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 13",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 1.5000000000000002,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "qwntg",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 14",
+                      "layoutPosition": "absolute",
+                      "x": 0.051111260566397476,
+                      "y": 1.111771432346219,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "y5Cx1",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 15",
+                      "layoutPosition": "absolute",
+                      "x": 0.20096189432334177,
+                      "y": 0.7500000000000004,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "KbceZ",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 16",
+                      "layoutPosition": "absolute",
+                      "x": 0.43933982822017814,
+                      "y": 0.43933982822017925,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "A6ref7",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 17",
+                      "layoutPosition": "absolute",
+                      "x": 0.7499999999999993,
+                      "y": 0.20096189432334222,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "b1GzK",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 18",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "YBZaA",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 19",
+                      "layoutPosition": "absolute",
+                      "x": 1.4999999999999998,
+                      "y": 0,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "CTPZ6",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 20",
+                      "layoutPosition": "absolute",
+                      "x": 1.8882285676537804,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "lQZHp",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 21",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 0.200961894323342,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "TfJtw",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 22",
+                      "layoutPosition": "absolute",
+                      "x": 2.560660171779821,
+                      "y": 0.4393398282201786,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "hfAsP",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 23",
+                      "layoutPosition": "absolute",
+                      "x": 2.7990381056766576,
+                      "y": 0.7499999999999993,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "NhmPO",
+                      "type": "ref",
+                      "ref": "aRdPG",
+                      "name": "Outline 24",
+                      "layoutPosition": "absolute",
+                      "x": 2.948888739433602,
+                      "y": 1.1117714323462176,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aRdPG",
+                      "name": "Message",
+                      "context": "Editable foreground; 24 linked black outline instances at radius 1.5px",
+                      "reusable": true,
+                      "fill": "#FFFFFF",
+                      "content": " 我會笑死",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.48
+                    }
+                  ]
                 }
               ]
             }
@@ -178,35 +1186,802 @@
             "radius": 4
           },
           "layout": "vertical",
+          "gap": -3,
           "padding": [
-            8,
-            16
+            6.5,
+            14.5
           ],
           "children": [
             {
               "type": "frame",
               "id": "xv5Gk",
               "name": "First line",
-              "height": 17,
+              "height": 20,
+              "gap": -3,
               "children": [
                 {
-                  "type": "text",
-                  "id": "njYl2",
-                  "name": "Channel and sender",
-                  "fill": "#8DF5FF",
-                  "content": "[世界] FOMO價值投資者:",
-                  "lineHeight": 1.4166666666666667,
-                  "fontFamily": "Noto Sans TC",
-                  "fontSize": 12,
-                  "fontWeight": "600",
-                  "letterSpacing": 0.48
+                  "type": "frame",
+                  "id": "h1n8Pl",
+                  "name": "Channel and sender / outlined",
+                  "height": 20,
+                  "padding": 1.5,
+                  "children": [
+                    {
+                      "id": "TkVOd",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 01",
+                      "layoutPosition": "absolute",
+                      "x": 3,
+                      "y": 1.5,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "INV9m",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 02",
+                      "layoutPosition": "absolute",
+                      "x": 2.9488887394336025,
+                      "y": 1.888228567653781,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Z926Xq",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 03",
+                      "layoutPosition": "absolute",
+                      "x": 2.799038105676658,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "wBhj1",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 04",
+                      "layoutPosition": "absolute",
+                      "x": 2.5606601717798214,
+                      "y": 2.560660171779821,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "u6uQ2",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 05",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "mR3Lu",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 06",
+                      "layoutPosition": "absolute",
+                      "x": 1.888228567653781,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Rucji",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 07",
+                      "layoutPosition": "absolute",
+                      "x": 1.5,
+                      "y": 3,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "FFyA8",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 08",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Nyr2e",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 09",
+                      "layoutPosition": "absolute",
+                      "x": 0.7500000000000003,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "v0doI",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 10",
+                      "layoutPosition": "absolute",
+                      "x": 0.4393398282201788,
+                      "y": 2.5606601717798214,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "LN8WH",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 11",
+                      "layoutPosition": "absolute",
+                      "x": 0.200961894323342,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "X39Vly",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 12",
+                      "layoutPosition": "absolute",
+                      "x": 0.0511112605663977,
+                      "y": 1.8882285676537816,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Tx8OS",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 13",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 1.5000000000000002,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "jJ1Kx",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 14",
+                      "layoutPosition": "absolute",
+                      "x": 0.051111260566397476,
+                      "y": 1.111771432346219,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Fp6HS",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 15",
+                      "layoutPosition": "absolute",
+                      "x": 0.20096189432334177,
+                      "y": 0.7500000000000004,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "bJTas",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 16",
+                      "layoutPosition": "absolute",
+                      "x": 0.43933982822017814,
+                      "y": 0.43933982822017925,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "zcOJI",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 17",
+                      "layoutPosition": "absolute",
+                      "x": 0.7499999999999993,
+                      "y": 0.20096189432334222,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "R0sHFE",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 18",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "N0uD6",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 19",
+                      "layoutPosition": "absolute",
+                      "x": 1.4999999999999998,
+                      "y": 0,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "g1QBqZ",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 20",
+                      "layoutPosition": "absolute",
+                      "x": 1.8882285676537804,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "TSQCs",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 21",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 0.200961894323342,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "k6cRWn",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 22",
+                      "layoutPosition": "absolute",
+                      "x": 2.560660171779821,
+                      "y": 0.4393398282201786,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "v7tpG",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 23",
+                      "layoutPosition": "absolute",
+                      "x": 2.7990381056766576,
+                      "y": 0.7499999999999993,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "G208RS",
+                      "type": "ref",
+                      "ref": "njYl2",
+                      "name": "Outline 24",
+                      "layoutPosition": "absolute",
+                      "x": 2.948888739433602,
+                      "y": 1.1117714323462176,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "text",
+                      "id": "njYl2",
+                      "name": "Channel and sender",
+                      "context": "Editable foreground; 24 linked black outline instances at radius 1.5px",
+                      "reusable": true,
+                      "fill": "#8DF5FF",
+                      "content": "[世界] FOMO價值投資者:",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.48
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ABRcV",
+                  "name": "Message / outlined",
+                  "height": 20,
+                  "padding": 1.5,
+                  "children": [
+                    {
+                      "id": "ffW9D",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 01",
+                      "layoutPosition": "absolute",
+                      "x": 3,
+                      "y": 1.5,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "lMvZQ",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 02",
+                      "layoutPosition": "absolute",
+                      "x": 2.9488887394336025,
+                      "y": 1.888228567653781,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "H7oeh2",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 03",
+                      "layoutPosition": "absolute",
+                      "x": 2.799038105676658,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "xXgHG",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 04",
+                      "layoutPosition": "absolute",
+                      "x": 2.5606601717798214,
+                      "y": 2.560660171779821,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "H2DpG",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 05",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "TRQtn",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 06",
+                      "layoutPosition": "absolute",
+                      "x": 1.888228567653781,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "f24b8f",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 07",
+                      "layoutPosition": "absolute",
+                      "x": 1.5,
+                      "y": 3,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Xulfd",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 08",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 2.9488887394336025,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "oXsR2",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 09",
+                      "layoutPosition": "absolute",
+                      "x": 0.7500000000000003,
+                      "y": 2.799038105676658,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "CQtZl",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 10",
+                      "layoutPosition": "absolute",
+                      "x": 0.4393398282201788,
+                      "y": 2.5606601717798214,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "U4L27M",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 11",
+                      "layoutPosition": "absolute",
+                      "x": 0.200961894323342,
+                      "y": 2.25,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Vfxgz",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 12",
+                      "layoutPosition": "absolute",
+                      "x": 0.0511112605663977,
+                      "y": 1.8882285676537816,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "XQFJg",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 13",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 1.5000000000000002,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "p0vQ6",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 14",
+                      "layoutPosition": "absolute",
+                      "x": 0.051111260566397476,
+                      "y": 1.111771432346219,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "xacOk",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 15",
+                      "layoutPosition": "absolute",
+                      "x": 0.20096189432334177,
+                      "y": 0.7500000000000004,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "k7Ua7v",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 16",
+                      "layoutPosition": "absolute",
+                      "x": 0.43933982822017814,
+                      "y": 0.43933982822017925,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "VeiFt",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 17",
+                      "layoutPosition": "absolute",
+                      "x": 0.7499999999999993,
+                      "y": 0.20096189432334222,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "ssa4x",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 18",
+                      "layoutPosition": "absolute",
+                      "x": 1.1117714323462191,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "uOHVl",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 19",
+                      "layoutPosition": "absolute",
+                      "x": 1.4999999999999998,
+                      "y": 0,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "y6hgs",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 20",
+                      "layoutPosition": "absolute",
+                      "x": 1.8882285676537804,
+                      "y": 0.051111260566397476,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "Qc6r4",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 21",
+                      "layoutPosition": "absolute",
+                      "x": 2.25,
+                      "y": 0.200961894323342,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "IECGp",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 22",
+                      "layoutPosition": "absolute",
+                      "x": 2.560660171779821,
+                      "y": 0.4393398282201786,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "f4eJH6",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 23",
+                      "layoutPosition": "absolute",
+                      "x": 2.7990381056766576,
+                      "y": 0.7499999999999993,
+                      "fill": "#000000"
+                    },
+                    {
+                      "id": "DLopP",
+                      "type": "ref",
+                      "ref": "sPPAA",
+                      "name": "Outline 24",
+                      "layoutPosition": "absolute",
+                      "x": 2.948888739433602,
+                      "y": 1.1117714323462176,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sPPAA",
+                      "name": "Message",
+                      "context": "Editable foreground; 24 linked black outline instances at radius 1.5px",
+                      "reusable": true,
+                      "fill": "#FFFFFF",
+                      "content": " 我會笑死，哪有每次買都被狙擊的，哈",
+                      "lineHeight": 1.4166666666666667,
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.48
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ecZmH",
+              "name": "Message continuation / outlined",
+              "height": 20,
+              "padding": 1.5,
+              "children": [
+                {
+                  "id": "s7yCbp",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 01",
+                  "layoutPosition": "absolute",
+                  "x": 3,
+                  "y": 1.5,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "FbvCz",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 02",
+                  "layoutPosition": "absolute",
+                  "x": 2.9488887394336025,
+                  "y": 1.888228567653781,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "rSafb",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 03",
+                  "layoutPosition": "absolute",
+                  "x": 2.799038105676658,
+                  "y": 2.25,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "esMEb",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 04",
+                  "layoutPosition": "absolute",
+                  "x": 2.5606601717798214,
+                  "y": 2.560660171779821,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "WRObS",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 05",
+                  "layoutPosition": "absolute",
+                  "x": 2.25,
+                  "y": 2.799038105676658,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "a9qpUZ",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 06",
+                  "layoutPosition": "absolute",
+                  "x": 1.888228567653781,
+                  "y": 2.9488887394336025,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "lukZD",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 07",
+                  "layoutPosition": "absolute",
+                  "x": 1.5,
+                  "y": 3,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "Rhi4L",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 08",
+                  "layoutPosition": "absolute",
+                  "x": 1.1117714323462191,
+                  "y": 2.9488887394336025,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "Vg6Sx",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 09",
+                  "layoutPosition": "absolute",
+                  "x": 0.7500000000000003,
+                  "y": 2.799038105676658,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "U9imCO",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 10",
+                  "layoutPosition": "absolute",
+                  "x": 0.4393398282201788,
+                  "y": 2.5606601717798214,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "JFk1M",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 11",
+                  "layoutPosition": "absolute",
+                  "x": 0.200961894323342,
+                  "y": 2.25,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "VFYAB",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 12",
+                  "layoutPosition": "absolute",
+                  "x": 0.0511112605663977,
+                  "y": 1.8882285676537816,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "awko4",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 13",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 1.5000000000000002,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "Faw3E",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 14",
+                  "layoutPosition": "absolute",
+                  "x": 0.051111260566397476,
+                  "y": 1.111771432346219,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "IWEQM",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 15",
+                  "layoutPosition": "absolute",
+                  "x": 0.20096189432334177,
+                  "y": 0.7500000000000004,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "rvMCG",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 16",
+                  "layoutPosition": "absolute",
+                  "x": 0.43933982822017814,
+                  "y": 0.43933982822017925,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "AFhcm",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 17",
+                  "layoutPosition": "absolute",
+                  "x": 0.7499999999999993,
+                  "y": 0.20096189432334222,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "SCKaB",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 18",
+                  "layoutPosition": "absolute",
+                  "x": 1.1117714323462191,
+                  "y": 0.051111260566397476,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "lXeEP",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 19",
+                  "layoutPosition": "absolute",
+                  "x": 1.4999999999999998,
+                  "y": 0,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "cRwwv",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 20",
+                  "layoutPosition": "absolute",
+                  "x": 1.8882285676537804,
+                  "y": 0.051111260566397476,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "ADX72",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 21",
+                  "layoutPosition": "absolute",
+                  "x": 2.25,
+                  "y": 0.200961894323342,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "uokyE",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 22",
+                  "layoutPosition": "absolute",
+                  "x": 2.560660171779821,
+                  "y": 0.4393398282201786,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "StOq9",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 23",
+                  "layoutPosition": "absolute",
+                  "x": 2.7990381056766576,
+                  "y": 0.7499999999999993,
+                  "fill": "#000000"
+                },
+                {
+                  "id": "zIUF4",
+                  "type": "ref",
+                  "ref": "SXN22",
+                  "name": "Outline 24",
+                  "layoutPosition": "absolute",
+                  "x": 2.948888739433602,
+                  "y": 1.1117714323462176,
+                  "fill": "#000000"
                 },
                 {
                   "type": "text",
-                  "id": "sPPAA",
-                  "name": "Message",
+                  "id": "SXN22",
+                  "name": "Message continuation",
+                  "context": "Editable foreground; 24 linked black outline instances at radius 1.5px",
+                  "reusable": true,
                   "fill": "#FFFFFF",
-                  "content": " 我會笑死，哪有每次買都被狙擊的，哈",
+                  "content": "哈哈哈哈",
                   "lineHeight": 1.4166666666666667,
                   "fontFamily": "Noto Sans TC",
                   "fontSize": 12,
@@ -214,18 +1989,6 @@
                   "letterSpacing": 0.48
                 }
               ]
-            },
-            {
-              "type": "text",
-              "id": "SXN22",
-              "name": "Message continuation",
-              "fill": "#FFFFFF",
-              "content": "哈哈哈哈",
-              "lineHeight": 1.4166666666666667,
-              "fontFamily": "Noto Sans TC",
-              "fontSize": 12,
-              "fontWeight": "600",
-              "letterSpacing": 0.48
             }
           ]
         },
@@ -321,7 +2084,7 @@
           "y": 500,
           "name": "保留原稿三則訊息與世界雙行內容；文字保持可編輯。",
           "fill": "#ABB8C8",
-          "content": "保留原稿三則訊息與世界雙行內容；文字保持可編輯。",
+          "content": "文字保留可編輯；所有頻道、正文及第二行均有 1.5px 黑色外框。",
           "fontFamily": "Noto Sans TC",
           "fontSize": 13,
           "fontWeight": "normal"

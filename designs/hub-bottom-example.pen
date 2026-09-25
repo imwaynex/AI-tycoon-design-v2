@@ -39,7 +39,8 @@
           "type": "ref",
           "ref": "x:lIpLK",
           "name": "Chat / imported",
-          "width": "fill_container"
+          "width": "fill_container",
+          "context": "Imports Hub/Chat/Stack from hub-chat.lib.pen; refreshed 2026-09-26 with 1.5px black text outlines on all chat text."
         },
         {
           "id": "C8Ig7B",

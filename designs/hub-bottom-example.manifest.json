@@ -23,6 +23,17 @@
   "verification": {
     "bothLibrariesLoaded": "passed",
     "portableRelativeImports": "passed",
-    "renderMatchesPreviousRGBA": true
+    "splitBaselineComparison": {
+      "date": "2026-09-25",
+      "renderMatchesPreSplitRGBA": true
+    },
+    "chatOutlineRefresh": {
+      "date": "2026-09-26",
+      "outlineInstances": 168,
+      "foregroundTextLayers": 7,
+      "layoutClippingCheck": "passed",
+      "visualPreview": "passed",
+      "exampleResaved": true
+    }
   }
 }
